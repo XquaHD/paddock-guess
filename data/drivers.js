@@ -4062,5 +4062,2311 @@ module.exports = [
     "starts": 3,
     "wins": 0,
     "points": 0.0
+  },
+  {
+    "name": "Brett Lunger",
+    "teams": [
+      "Hesketh",
+      "Surtees",
+      "McLaren",
+      "ATS"
+    ],
+    "nat": "American",
+    "flag": "🇺🇸",
+    "debut": 1975,
+    "titles": 0,
+    "starts": 34,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Jan Lammers",
+    "teams": [
+      "Shadow",
+      "ATS",
+      "Ensign",
+      "March"
+    ],
+    "nat": "Dutch",
+    "flag": "🇳🇱",
+    "debut": 1979,
+    "titles": 0,
+    "starts": 23,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Brian Henton",
+    "teams": [
+      "Lotus",
+      "March",
+      "Ensign",
+      "Toleman"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1975,
+    "titles": 0,
+    "starts": 19,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Rupert Keegan",
+    "teams": [
+      "Hesketh",
+      "Surtees",
+      "Williams",
+      "RAM"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1977,
+    "titles": 0,
+    "starts": 25,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Eliseo Salazar",
+    "teams": [
+      "March",
+      "Ensign",
+      "ATS"
+    ],
+    "nat": "Chilean",
+    "flag": "🇨🇱",
+    "debut": 1981,
+    "titles": 0,
+    "starts": 24,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Andrea de Adamich",
+    "teams": [
+      "Ferrari",
+      "McLaren",
+      "March",
+      "Surtees"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1968,
+    "titles": 0,
+    "starts": 30,
+    "wins": 0,
+    "points": 6.0
+  },
+  {
+    "name": "Shinji Nakano",
+    "teams": [
+      "Prost",
+      "Minardi"
+    ],
+    "nat": "Japanese",
+    "flag": "🇯🇵",
+    "debut": 1997,
+    "titles": 0,
+    "starts": 33,
+    "wins": 0,
+    "points": 2.0
+  },
+  {
+    "name": "Chico Serra",
+    "teams": [
+      "Fittipaldi",
+      "Arrows"
+    ],
+    "nat": "Brazilian",
+    "flag": "🇧🇷",
+    "debut": 1981,
+    "titles": 0,
+    "starts": 18,
+    "wins": 0,
+    "points": 1.0
+  },
+  {
+    "name": "Luis Pérez-Sala",
+    "teams": [
+      "Minardi"
+    ],
+    "nat": "Spanish",
+    "flag": "🇪🇸",
+    "debut": 1988,
+    "titles": 0,
+    "starts": 26,
+    "wins": 0,
+    "points": 1.0
+  },
+  {
+    "name": "Toranosuke Takagi",
+    "teams": [
+      "Tyrrell",
+      "Arrows"
+    ],
+    "nat": "Japanese",
+    "flag": "🇯🇵",
+    "debut": 1998,
+    "titles": 0,
+    "starts": 32,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Enrique Bernoldi",
+    "teams": [
+      "Arrows"
+    ],
+    "nat": "Brazilian",
+    "flag": "🇧🇷",
+    "debut": 2001,
+    "titles": 0,
+    "starts": 28,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Mike Beuttler",
+    "teams": [
+      "March"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1971,
+    "titles": 0,
+    "starts": 28,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Roberto Guerrero",
+    "teams": [
+      "Ensign",
+      "Theodore"
+    ],
+    "nat": "Colombian",
+    "flag": "🇨🇴",
+    "debut": 1982,
+    "titles": 0,
+    "starts": 21,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Andrea Montermini",
+    "teams": [
+      "Simtek",
+      "Pacific",
+      "Forti"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1994,
+    "titles": 0,
+    "starts": 19,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Trevor Taylor",
+    "teams": [
+      "Lotus",
+      "BRP",
+      "Cooper"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1959,
+    "titles": 0,
+    "starts": 27,
+    "wins": 0,
+    "points": 8.0
+  },
+  {
+    "name": "Harald Ertl",
+    "teams": [
+      "Hesketh",
+      "Ensign",
+      "ATS"
+    ],
+    "nat": "Austrian",
+    "flag": "🇦🇹",
+    "debut": 1975,
+    "titles": 0,
+    "starts": 19,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Tarso Marques",
+    "teams": [
+      "Minardi",
+      "Arrows"
+    ],
+    "nat": "Brazilian",
+    "flag": "🇧🇷",
+    "debut": 1996,
+    "titles": 0,
+    "starts": 24,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Johnny Claes",
+    "teams": [
+      "Talbot-Lago",
+      "Gordini"
+    ],
+    "nat": "Belgian",
+    "flag": "🇧🇪",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 23,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Anthony Davidson",
+    "teams": [
+      "Minardi",
+      "Super Aguri"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 2002,
+    "titles": 0,
+    "starts": 24,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Johnny Cecotto",
+    "teams": [
+      "Theodore",
+      "Toleman"
+    ],
+    "nat": "Venezuelan",
+    "flag": "🇻🇪",
+    "debut": 1983,
+    "titles": 0,
+    "starts": 18,
+    "wins": 0,
+    "points": 1.0
+  },
+  {
+    "name": "Emmanuel de Graffenried",
+    "teams": [
+      "Maserati",
+      "Alfa Romeo"
+    ],
+    "nat": "Swiss",
+    "flag": "🇨🇭",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 22,
+    "wins": 0,
+    "points": 9.0
+  },
+  {
+    "name": "Stefan Bellof",
+    "teams": [
+      "Tyrrell"
+    ],
+    "nat": "German",
+    "flag": "🇩🇪",
+    "debut": 1984,
+    "titles": 0,
+    "starts": 20,
+    "wins": 0,
+    "points": 4.0
+  },
+  {
+    "name": "Nikita Mazepin",
+    "teams": [
+      "Haas"
+    ],
+    "nat": "Russian",
+    "flag": "🇷🇺",
+    "debut": 2021,
+    "titles": 0,
+    "starts": 21,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Adrián Campos",
+    "teams": [
+      "Minardi"
+    ],
+    "nat": "Spanish",
+    "flag": "🇪🇸",
+    "debut": 1987,
+    "titles": 0,
+    "starts": 17,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "François Hesnault",
+    "teams": [
+      "Renault",
+      "Ligier",
+      "Brabham"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1984,
+    "titles": 0,
+    "starts": 19,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Gastón Mazzacane",
+    "teams": [
+      "Minardi",
+      "Prost"
+    ],
+    "nat": "Argentine",
+    "flag": "🇦🇷",
+    "debut": 2000,
+    "titles": 0,
+    "starts": 21,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Sakon Yamamoto",
+    "teams": [
+      "Super Aguri",
+      "Spyker",
+      "HRT"
+    ],
+    "nat": "Japanese",
+    "flag": "🇯🇵",
+    "debut": 2006,
+    "titles": 0,
+    "starts": 21,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Ian Burgess",
+    "teams": [
+      "Cooper",
+      "Lotus"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1958,
+    "titles": 0,
+    "starts": 16,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Jérôme d'Ambrosio",
+    "teams": [
+      "Virgin",
+      "Lotus F1 Team"
+    ],
+    "nat": "Belgian",
+    "flag": "🇧🇪",
+    "debut": 2011,
+    "titles": 0,
+    "starts": 20,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Nanni Galli",
+    "teams": [
+      "March",
+      "Tecno",
+      "Williams"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1970,
+    "titles": 0,
+    "starts": 17,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Silvio Moser",
+    "teams": [
+      "Brabham"
+    ],
+    "nat": "Swiss",
+    "flag": "🇨🇭",
+    "debut": 1967,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Alex Ribeiro",
+    "teams": [
+      "March"
+    ],
+    "nat": "Brazilian",
+    "flag": "🇧🇷",
+    "debut": 1976,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Ian Scheckter",
+    "teams": [
+      "Tyrrell",
+      "March"
+    ],
+    "nat": "South African",
+    "flag": "🇿🇦",
+    "debut": 1974,
+    "titles": 0,
+    "starts": 18,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Birabongse Bhanudej",
+    "teams": [
+      "Gordini",
+      "Maserati",
+      "OSCA"
+    ],
+    "nat": "Thai",
+    "flag": "🇹🇭",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 19,
+    "wins": 0,
+    "points": 8.0
+  },
+  {
+    "name": "Lucien Bianchi",
+    "teams": [
+      "Cooper",
+      "Lotus"
+    ],
+    "nat": "Belgian",
+    "flag": "🇧🇪",
+    "debut": 1959,
+    "titles": 0,
+    "starts": 17,
+    "wins": 0,
+    "points": 6.0
+  },
+  {
+    "name": "Louis Chiron",
+    "teams": [
+      "Maserati",
+      "Lancia"
+    ],
+    "nat": "Monegasque",
+    "flag": "🇲🇨",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 15,
+    "wins": 0,
+    "points": 4.0
+  },
+  {
+    "name": "Giedo van der Garde",
+    "teams": [
+      "Caterham"
+    ],
+    "nat": "Dutch",
+    "flag": "🇳🇱",
+    "debut": 2013,
+    "titles": 0,
+    "starts": 19,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Corrado Fabi",
+    "teams": [
+      "Osella"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1983,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Horace Gould",
+    "teams": [
+      "Maserati",
+      "Cooper"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1954,
+    "titles": 0,
+    "starts": 14,
+    "wins": 0,
+    "points": 2.0
+  },
+  {
+    "name": "Taki Inoue",
+    "teams": [
+      "Simtek",
+      "Footwork"
+    ],
+    "nat": "Japanese",
+    "flag": "🇯🇵",
+    "debut": 1994,
+    "titles": 0,
+    "starts": 18,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Alex Yoong",
+    "teams": [
+      "Minardi"
+    ],
+    "nat": "Malaysian",
+    "flag": "🇲🇾",
+    "debut": 2001,
+    "titles": 0,
+    "starts": 14,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Richard Attwood",
+    "teams": [
+      "BRM",
+      "Lotus",
+      "Cooper"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1964,
+    "titles": 0,
+    "starts": 17,
+    "wins": 0,
+    "points": 11.0
+  },
+  {
+    "name": "Guy Edwards",
+    "teams": [
+      "Hesketh",
+      "Hill"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1974,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Beppe Gabbiani",
+    "teams": [
+      "Surtees"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1978,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Lella Lombardi",
+    "teams": [
+      "March"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1974,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 0.5
+  },
+  {
+    "name": "Roberto Mieres",
+    "teams": [
+      "Gordini",
+      "Maserati"
+    ],
+    "nat": "Argentine",
+    "flag": "🇦🇷",
+    "debut": 1953,
+    "titles": 0,
+    "starts": 17,
+    "wins": 0,
+    "points": 13.0
+  },
+  {
+    "name": "Pierre-Henri Raphanel",
+    "teams": [
+      "Coloni",
+      "Larrousse"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1988,
+    "titles": 0,
+    "starts": 1,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Derek Bell",
+    "teams": [
+      "Ferrari",
+      "McLaren",
+      "Surtees"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1968,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 1.0
+  },
+  {
+    "name": "Felice Bonetto",
+    "teams": [
+      "Alfa Romeo",
+      "Maserati"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 15,
+    "wins": 0,
+    "points": 17.5
+  },
+  {
+    "name": "Mark Donohue",
+    "teams": [
+      "McLaren",
+      "Penske"
+    ],
+    "nat": "American",
+    "flag": "🇺🇸",
+    "debut": 1971,
+    "titles": 0,
+    "starts": 14,
+    "wins": 0,
+    "points": 8.0
+  },
+  {
+    "name": "François Migault",
+    "teams": [
+      "March",
+      "BRM",
+      "Hesketh"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1972,
+    "titles": 0,
+    "starts": 13,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Esteban Tuero",
+    "teams": [
+      "Minardi"
+    ],
+    "nat": "Argentine",
+    "flag": "🇦🇷",
+    "debut": 1998,
+    "titles": 0,
+    "starts": 16,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Ken Wharton",
+    "teams": [
+      "Cooper",
+      "Vanwall",
+      "BRM"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1952,
+    "titles": 0,
+    "starts": 15,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Hans Binder",
+    "teams": [
+      "Surtees",
+      "Ensign",
+      "ATS"
+    ],
+    "nat": "Austrian",
+    "flag": "🇦🇹",
+    "debut": 1976,
+    "titles": 0,
+    "starts": 13,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Slim Borgudd",
+    "teams": [
+      "ATS",
+      "Tyrrell"
+    ],
+    "nat": "Swedish",
+    "flag": "🇸🇪",
+    "debut": 1981,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 1.0
+  },
+  {
+    "name": "Luciano Burti",
+    "teams": [
+      "Jaguar",
+      "Prost"
+    ],
+    "nat": "Brazilian",
+    "flag": "🇧🇷",
+    "debut": 2000,
+    "titles": 0,
+    "starts": 14,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Martin Donnelly",
+    "teams": [
+      "Lotus"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1989,
+    "titles": 0,
+    "starts": 13,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Lance Macklin",
+    "teams": [
+      "HWM",
+      "Maserati"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1952,
+    "titles": 0,
+    "starts": 13,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "John Miles",
+    "teams": [
+      "Lotus"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1969,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 2.0
+  },
+  {
+    "name": "Larry Perkins",
+    "teams": [
+      "Brabham",
+      "Ensign"
+    ],
+    "nat": "Australian",
+    "flag": "🇦🇺",
+    "debut": 1974,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Brian Redman",
+    "teams": [
+      "Cooper",
+      "McLaren",
+      "Surtees"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1968,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 8.0
+  },
+  {
+    "name": "Giorgio Scarlatti",
+    "teams": [
+      "Maserati",
+      "Ferrari"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1956,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 1.0
+  },
+  {
+    "name": "Emilio de Villota",
+    "teams": [
+      "March"
+    ],
+    "nat": "Spanish",
+    "flag": "🇪🇸",
+    "debut": 1976,
+    "titles": 0,
+    "starts": 2,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Eugenio Castellotti",
+    "teams": [
+      "Lancia",
+      "Ferrari"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1955,
+    "titles": 0,
+    "starts": 14,
+    "wins": 0,
+    "points": 19.5
+  },
+  {
+    "name": "Dave Charlton",
+    "teams": [
+      "Lotus",
+      "Brabham"
+    ],
+    "nat": "South African",
+    "flag": "🇿🇦",
+    "debut": 1965,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Pascal Fabre",
+    "teams": [
+      "AGS"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1987,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Ron Flockhart",
+    "teams": [
+      "BRM",
+      "Connaught",
+      "Lotus"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1954,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 5.0
+  },
+  {
+    "name": "Paco Godia",
+    "teams": [
+      "Maserati"
+    ],
+    "nat": "Spanish",
+    "flag": "🇪🇸",
+    "debut": 1951,
+    "titles": 0,
+    "starts": 13,
+    "wins": 0,
+    "points": 6.0
+  },
+  {
+    "name": "Stuart Lewis-Evans",
+    "teams": [
+      "Connaught",
+      "Vanwall"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1957,
+    "titles": 0,
+    "starts": 14,
+    "wins": 0,
+    "points": 16.0
+  },
+  {
+    "name": "Roberto Merhi",
+    "teams": [
+      "Manor"
+    ],
+    "nat": "Spanish",
+    "flag": "🇪🇸",
+    "debut": 2015,
+    "titles": 0,
+    "starts": 13,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Patrick Nève",
+    "teams": [
+      "Williams",
+      "March"
+    ],
+    "nat": "Belgian",
+    "flag": "🇧🇪",
+    "debut": 1976,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Rikky von Opel",
+    "teams": [
+      "Ensign",
+      "Brabham"
+    ],
+    "nat": "Liechtensteiner",
+    "flag": "🇱🇮",
+    "debut": 1973,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "André Pilette",
+    "teams": [
+      "Connaught",
+      "Gordini",
+      "Cooper"
+    ],
+    "nat": "Belgian",
+    "flag": "🇧🇪",
+    "debut": 1951,
+    "titles": 0,
+    "starts": 8,
+    "wins": 0,
+    "points": 2.0
+  },
+  {
+    "name": "Peter Arundell",
+    "teams": [
+      "Lotus"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1963,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 12.0
+  },
+  {
+    "name": "George Eaton",
+    "teams": [
+      "BRM"
+    ],
+    "nat": "Canadian",
+    "flag": "🇨🇦",
+    "debut": 1969,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Jack Fairman",
+    "teams": [
+      "HWM",
+      "Connaught",
+      "Cooper"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1953,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 5.0
+  },
+  {
+    "name": "George Follmer",
+    "teams": [
+      "Shadow"
+    ],
+    "nat": "American",
+    "flag": "🇺🇸",
+    "debut": 1973,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 5.0
+  },
+  {
+    "name": "Yves Giraud-Cabantous",
+    "teams": [
+      "Talbot-Lago",
+      "HWM"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 13,
+    "wins": 0,
+    "points": 5.0
+  },
+  {
+    "name": "Guy Ligier",
+    "teams": [
+      "Cooper",
+      "Brabham"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1966,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 1.0
+  },
+  {
+    "name": "Willy Mairesse",
+    "teams": [
+      "Ferrari"
+    ],
+    "nat": "Belgian",
+    "flag": "🇧🇪",
+    "debut": 1960,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 7.0
+  },
+  {
+    "name": "Vern Schuppan",
+    "teams": [
+      "Hesketh",
+      "Ensign",
+      "Surtees"
+    ],
+    "nat": "Australian",
+    "flag": "🇦🇺",
+    "debut": 1972,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Johnny Servoz-Gavin",
+    "teams": [
+      "Matra",
+      "March"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1967,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 9.0
+  },
+  {
+    "name": "Siegfried Stohr",
+    "teams": [
+      "Arrows"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1981,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Philippe Étancelin",
+    "teams": [
+      "Talbot-Lago",
+      "Maserati"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Bob Evans",
+    "teams": [
+      "Brabham"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1975,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Jim Hall",
+    "teams": [
+      "Lotus",
+      "BRP"
+    ],
+    "nat": "American",
+    "flag": "🇺🇸",
+    "debut": 1960,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Rio Haryanto",
+    "teams": [
+      "Manor"
+    ],
+    "nat": "Indonesian",
+    "flag": "🇮🇩",
+    "debut": 2016,
+    "titles": 0,
+    "starts": 12,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Geoff Lees",
+    "teams": [
+      "Shadow",
+      "Ensign",
+      "Theodore"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1978,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Onofre Marimón",
+    "teams": [
+      "Maserati"
+    ],
+    "nat": "Argentine",
+    "flag": "🇦🇷",
+    "debut": 1951,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 8.14
+  },
+  {
+    "name": "Ludovico Scarfiotti",
+    "teams": [
+      "Ferrari"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1963,
+    "titles": 0,
+    "starts": 10,
+    "wins": 1,
+    "points": 17.0
+  },
+  {
+    "name": "Wolfgang Seidel",
+    "teams": [
+      "Maserati",
+      "Lotus"
+    ],
+    "nat": "German",
+    "flag": "🇩🇪",
+    "debut": 1953,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "André Simon",
+    "teams": [
+      "Gordini",
+      "Maserati"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1951,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Peter Whitehead",
+    "teams": [
+      "Ferrari",
+      "Talbot-Lago"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 4.0
+  },
+  {
+    "name": "Ian Ashley",
+    "teams": [
+      "Williams",
+      "BRM"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1974,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Jean-Christophe Boullion",
+    "teams": [
+      "Sauber"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1995,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Karun Chandhok",
+    "teams": [
+      "HRT",
+      "Lotus F1 Team"
+    ],
+    "nat": "Indian",
+    "flag": "🇮🇳",
+    "debut": 2010,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Robert Doornbos",
+    "teams": [
+      "Minardi",
+      "Red Bull"
+    ],
+    "nat": "Dutch",
+    "flag": "🇳🇱",
+    "debut": 2005,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Paul Frère",
+    "teams": [
+      "HWM",
+      "Gordini"
+    ],
+    "nat": "Belgian",
+    "flag": "🇧🇪",
+    "debut": 1952,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 11.0
+  },
+  {
+    "name": "Patrick Friesacher",
+    "teams": [
+      "Minardi"
+    ],
+    "nat": "Austrian",
+    "flag": "🇦🇹",
+    "debut": 2005,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Karl Kling",
+    "teams": [
+      "Mercedes"
+    ],
+    "nat": "German",
+    "flag": "🇩🇪",
+    "debut": 1954,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 17.0
+  },
+  {
+    "name": "Arvid Lindblad",
+    "teams": [
+      "RB"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 2026,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 23.0
+  },
+  {
+    "name": "Pete Lovely",
+    "teams": [
+      "Cooper",
+      "Lotus"
+    ],
+    "nat": "American",
+    "flag": "🇺🇸",
+    "debut": 1959,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Carlos Menditeguy",
+    "teams": [
+      "Gordini",
+      "Maserati"
+    ],
+    "nat": "Argentine",
+    "flag": "🇦🇷",
+    "debut": 1953,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 9.0
+  },
+  {
+    "name": "David Purley",
+    "teams": [
+      "March",
+      "LEC"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1973,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Henry Taylor",
+    "teams": [
+      "Cooper",
+      "Lotus"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1959,
+    "titles": 0,
+    "starts": 8,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Nyck de Vries",
+    "teams": [
+      "Williams"
+    ],
+    "nat": "Dutch",
+    "flag": "🇳🇱",
+    "debut": 2022,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 2.0
+  },
+  {
+    "name": "David Walker",
+    "teams": [
+      "Lotus"
+    ],
+    "nat": "Australian",
+    "flag": "🇦🇺",
+    "debut": 1971,
+    "titles": 0,
+    "starts": 11,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Ricardo Zunino",
+    "teams": [
+      "Brabham"
+    ],
+    "nat": "Argentine",
+    "flag": "🇦🇷",
+    "debut": 1979,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Chris Irwin",
+    "teams": [
+      "BRM",
+      "Lotus"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1966,
+    "titles": 0,
+    "starts": 10,
+    "wins": 0,
+    "points": 2.0
+  },
+  {
+    "name": "Gijs van Lennep",
+    "teams": [
+      "Surtees",
+      "Williams"
+    ],
+    "nat": "Dutch",
+    "flag": "🇳🇱",
+    "debut": 1971,
+    "titles": 0,
+    "starts": 8,
+    "wins": 0,
+    "points": 2.0
+  },
+  {
+    "name": "John Love",
+    "teams": [
+      "Cooper",
+      "Lotus"
+    ],
+    "nat": "Rhodesian",
+    "flag": "🇿🇼",
+    "debut": 1962,
+    "titles": 0,
+    "starts": 9,
+    "wins": 1,
+    "points": 6.0
+  },
+  {
+    "name": "Umberto Maglioli",
+    "teams": [
+      "Maserati",
+      "Ferrari"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1953,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 3.33
+  },
+  {
+    "name": "Helmut Marko",
+    "teams": [
+      "BRM",
+      "McLaren"
+    ],
+    "nat": "Austrian",
+    "flag": "🇦🇹",
+    "debut": 1971,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Alex Soler-Roig",
+    "teams": [
+      "Lotus",
+      "March"
+    ],
+    "nat": "Spanish",
+    "flag": "🇪🇸",
+    "debut": 1970,
+    "titles": 0,
+    "starts": 6,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Bob Bondurant",
+    "teams": [
+      "BRM",
+      "Eagle",
+      "McLaren"
+    ],
+    "nat": "American",
+    "flag": "🇺🇸",
+    "debut": 1965,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Élie Bayol",
+    "teams": [
+      "Gordini",
+      "OSCA"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1952,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 2.0
+  },
+  {
+    "name": "Rudi Fischer",
+    "teams": [
+      "Ferrari"
+    ],
+    "nat": "Swiss",
+    "flag": "🇨🇭",
+    "debut": 1951,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 10.0
+  },
+  {
+    "name": "Michel Leclère",
+    "teams": [
+      "Tyrrell",
+      "Ligier"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1975,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Sergio Mantovani",
+    "teams": [
+      "Maserati"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1953,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 4.0
+  },
+  {
+    "name": "Riccardo Paletti",
+    "teams": [
+      "Osella"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1982,
+    "titles": 0,
+    "starts": 2,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Cesare Perdisa",
+    "teams": [
+      "Maserati"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1955,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 5.0
+  },
+  {
+    "name": "Jacques Swaters",
+    "teams": [
+      "Talbot-Lago",
+      "Ferrari"
+    ],
+    "nat": "Belgian",
+    "flag": "🇧🇪",
+    "debut": 1951,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Luigi Fagioli",
+    "teams": [
+      "Alfa Romeo"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 7,
+    "wins": 1,
+    "points": 28.0
+  },
+  {
+    "name": "Gerino Gerini",
+    "teams": [
+      "Maserati"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1956,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 1.5
+  },
+  {
+    "name": "Boy Hayje",
+    "teams": [
+      "RAM",
+      "Ensign"
+    ],
+    "nat": "Dutch",
+    "flag": "🇳🇱",
+    "debut": 1976,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "David Hobbs",
+    "teams": [
+      "BRM",
+      "Honda",
+      "McLaren",
+      "Surtees"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1967,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Gerhard Mitter",
+    "teams": [
+      "BRM"
+    ],
+    "nat": "German",
+    "flag": "🇩🇪",
+    "debut": 1963,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Mike Parkes",
+    "teams": [
+      "Ferrari"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1959,
+    "titles": 0,
+    "starts": 6,
+    "wins": 0,
+    "points": 14.0
+  },
+  {
+    "name": "Hermano da Silva Ramos",
+    "teams": [
+      "Gordini"
+    ],
+    "nat": "Brazilian",
+    "flag": "🇧🇷",
+    "debut": 1955,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 2.0
+  },
+  {
+    "name": "Tony Settember",
+    "teams": [
+      "Scirocco",
+      "ATS"
+    ],
+    "nat": "American",
+    "flag": "🇺🇸",
+    "debut": 1962,
+    "titles": 0,
+    "starts": 6,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Alan Stacey",
+    "teams": [
+      "Lotus"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1958,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Renzo Zorzi",
+    "teams": [
+      "Shadow"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1975,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 1.0
+  },
+  {
+    "name": "Bernard Collomb",
+    "teams": [
+      "Cooper"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1961,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Ingo Hoffmann",
+    "teams": [
+      "Fittipaldi"
+    ],
+    "nat": "Brazilian",
+    "flag": "🇧🇷",
+    "debut": 1976,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Loris Kessel",
+    "teams": [
+      "Williams"
+    ],
+    "nat": "Swiss",
+    "flag": "🇨🇭",
+    "debut": 1976,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Pierre Levegh",
+    "teams": [
+      "Talbot-Lago"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 6,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Ricardo Rodríguez",
+    "teams": [
+      "Ferrari"
+    ],
+    "nat": "Mexico",
+    "flag": "🏁",
+    "debut": 1961,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 4.0
+  },
+  {
+    "name": "Hap Sharp",
+    "teams": [
+      "Lotus"
+    ],
+    "nat": "American",
+    "flag": "🇺🇸",
+    "debut": 1961,
+    "titles": 0,
+    "starts": 6,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Roelof Wunderink",
+    "teams": [
+      "Ensign"
+    ],
+    "nat": "Dutch",
+    "flag": "🇳🇱",
+    "debut": 1975,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Mário de Araújo Cabral",
+    "teams": [
+      "Lotus"
+    ],
+    "nat": "Portuguese",
+    "flag": "🇵🇹",
+    "debut": 1959,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Tom Belsø",
+    "teams": [
+      "March"
+    ],
+    "nat": "Danish",
+    "flag": "🇩🇰",
+    "debut": 1973,
+    "titles": 0,
+    "starts": 2,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Michael Bleekemolen",
+    "teams": [
+      "Ensign"
+    ],
+    "nat": "Dutch",
+    "flag": "🇳🇱",
+    "debut": 1977,
+    "titles": 0,
+    "starts": 1,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Duncan Hamilton",
+    "teams": [
+      "HWM",
+      "Talbot-Lago"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1951,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Peter Hirt",
+    "teams": [
+      "Maserati"
+    ],
+    "nat": "Swiss",
+    "flag": "🇨🇭",
+    "debut": 1951,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Tony Marsh",
+    "teams": [
+      "Cooper"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1957,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "David Murray",
+    "teams": [
+      "Maserati"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Jacques Pollet",
+    "teams": [
+      "Gordini"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1954,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Alfonso de Portago",
+    "teams": [
+      "Ferrari"
+    ],
+    "nat": "Spanish",
+    "flag": "🇪🇸",
+    "debut": 1956,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 4.0
+  },
+  {
+    "name": "Franco Rol",
+    "teams": [
+      "Maserati"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Consalvo Sanesi",
+    "teams": [
+      "Alfa Romeo"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Raymond Sommer",
+    "teams": [
+      "Talbot-Lago",
+      "Ferrari"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1950,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Hans Stuck",
+    "teams": [
+      "AFM"
+    ],
+    "nat": "German",
+    "flag": "🇩🇪",
+    "debut": 1951,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "John Taylor",
+    "teams": [
+      "Brabham"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1964,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 1.0
+  },
+  {
+    "name": "Sam Tingle",
+    "teams": [
+      "Lotus"
+    ],
+    "nat": "Rhodesian",
+    "flag": "🇿🇼",
+    "debut": 1963,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Kurt Ahrens Jr.",
+    "teams": [
+      "Brabham"
+    ],
+    "nat": "German",
+    "flag": "🇩🇪",
+    "debut": 1966,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Chris Bristow",
+    "teams": [
+      "Cooper"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1959,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Ignazio Giunti",
+    "teams": [
+      "Ferrari"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1970,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 3.0
+  },
+  {
+    "name": "Peter de Klerk",
+    "teams": [
+      "Lotus",
+      "Brabham"
+    ],
+    "nat": "South African",
+    "flag": "🇿🇦",
+    "debut": 1963,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Gino Munaron",
+    "teams": [
+      "Maserati"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1960,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Danny Ongais",
+    "teams": [
+      "Ensign",
+      "Shadow"
+    ],
+    "nat": "American",
+    "flag": "🇺🇸",
+    "debut": 1977,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Nino Vaccarella",
+    "teams": [
+      "Lotus"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1961,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Bill Brack",
+    "teams": [
+      "BRM",
+      "McLaren"
+    ],
+    "nat": "Canadian",
+    "flag": "🇨🇦",
+    "debut": 1968,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Stéphane Sarrazin",
+    "teams": [
+      "Minardi"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1999,
+    "titles": 0,
+    "starts": 1,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Pietro Fittipaldi",
+    "teams": [
+      "Haas"
+    ],
+    "nat": "Brazilian",
+    "flag": "🇧🇷",
+    "debut": 2020,
+    "titles": 0,
+    "starts": 2,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Jack Aitken",
+    "teams": [
+      "Williams"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 2020,
+    "titles": 0,
+    "starts": 1,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "André Lotterer",
+    "teams": [
+      "Caterham"
+    ],
+    "nat": "German",
+    "flag": "🇩🇪",
+    "debut": 2014,
+    "titles": 0,
+    "starts": 1,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Markus Winkelhock",
+    "teams": [
+      "Spyker"
+    ],
+    "nat": "German",
+    "flag": "🇩🇪",
+    "debut": 2007,
+    "titles": 0,
+    "starts": 1,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Franco Forini",
+    "teams": [
+      "Osella"
+    ],
+    "nat": "Swiss",
+    "flag": "🇨🇭",
+    "debut": 1987,
+    "titles": 0,
+    "starts": 2,
+    "wins": 0,
+    "points": 0.0
   }
 ];
