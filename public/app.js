@@ -52,6 +52,16 @@ function compare(guess, answer) {
   return { teamResult, natHit, decadeResult, titleResult, correct: guess.name === answer.name };
 }
 
+function resolveMatch(query, takenSet) {
+  const q = query.trim().toLowerCase();
+  if (!q) return null;
+  const exact = DRIVERS.find((d) => !takenSet.has(d.name) && d.name.toLowerCase() === q);
+  if (exact) return exact;
+  const partial = DRIVERS.filter((d) => !takenSet.has(d.name) && d.name.toLowerCase().includes(q));
+  if (partial.length === 1) return partial[0];
+  return null;
+}
+
 function fameWeight(d) {
   return 1 + d.starts * 0.4 + d.wins * 8 + d.points * 0.05 + d.titles * 25;
 }
@@ -225,9 +235,14 @@ async function submitDailyGuess() {
   const val = input.value.trim();
   if (!val) return;
 
-  const exists = DRIVERS.find((d) => d.name.toLowerCase() === val.toLowerCase());
-  if (!exists) {
-    hint.textContent = "Not in the database — pick a name from the suggestions.";
+  const taken = new Set(dailyState ? dailyState.guesses.map((g) => g.guess.name) : []);
+  const resolved = resolveMatch(val, taken);
+  if (!resolved) {
+    const q = val.toLowerCase();
+    const anyMatch = DRIVERS.some((d) => !taken.has(d.name) && d.name.toLowerCase().includes(q));
+    hint.textContent = anyMatch
+      ? "Multiple drivers match — keep typing or pick from the list."
+      : "Not in the database — pick a name from the suggestions.";
     hint.classList.add("error");
     return;
   }
@@ -235,7 +250,7 @@ async function submitDailyGuess() {
   const res = await fetch("/api/daily/guess", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ name: exists.name })
+    body: JSON.stringify({ name: resolved.name })
   });
   const data = await res.json();
 
@@ -260,7 +275,7 @@ function buildDailyShareText() {
     const natSq = r.natHit ? "🟩" : "🟥";
     const decSq = r.decadeResult.state === "hit" ? "🟩" : "🟥";
     const titSq = r.titleResult.state === "hit" ? "🟩" : "🟥";
-    return `${teamSq} ${natSq} ${decSq} ${titSq}`;
+    return `${teamSq}${natSq}${decSq}${titSq}`;
   });
   const result = dailyState.won ? `${dailyState.guesses.length}/${MAX_GUESSES}` : `X/${MAX_GUESSES}`;
   return `Paddock Guess #${dailyState.puzzleNumber} — ${result}\n` + lines.join("\n");
@@ -341,15 +356,21 @@ function submitPracticeGuess() {
   if (!val) return;
 
   const taken = new Set(practiceState.guesses.map((g) => g.guess.name));
-  const found = DRIVERS.find((d) => d.name.toLowerCase() === val);
-  if (!found) { hint.textContent = "Not in the database — pick a name from the suggestions."; hint.classList.add("error"); return; }
-  if (taken.has(found.name)) { hint.textContent = "Already guessed that one."; hint.classList.add("error"); return; }
+  const resolved = resolveMatch(val, taken);
+  if (!resolved) {
+    const anyMatch = DRIVERS.some((d) => !taken.has(d.name) && d.name.toLowerCase().includes(val));
+    hint.textContent = anyMatch
+      ? "Multiple drivers match — keep typing or pick from the list."
+      : "Not in the database — pick a name from the suggestions.";
+    hint.classList.add("error");
+    return;
+  }
 
   hint.classList.remove("error");
   hint.textContent = "Pick a difficulty below to start a round.";
 
-  const result = compare(found, practiceState.answer);
-  practiceState.guesses.push({ guess: found, result });
+  const result = compare(resolved, practiceState.answer);
+  practiceState.guesses.push({ guess: resolved, result });
   input.value = "";
   document.getElementById("practiceSuggestions").classList.remove("open");
 
