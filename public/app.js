@@ -35,6 +35,12 @@ function sameGroup(teamA, teamsB) {
 
 function decadeOf(y) { return Math.floor(y / 10) * 10; }
 
+// Strips accents/diacritics so "hulk" matches "Hülkenberg", "raikkonen"
+// matches "Räikkönen", etc. — folds to plain a-z equivalents.
+function foldText(s) {
+  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
 function compare(guess, answer) {
   const teamResult = guess.teams.map((t) => {
     if (answer.teams.includes(t)) return { name: t, state: "hit" };
@@ -53,11 +59,11 @@ function compare(guess, answer) {
 }
 
 function resolveMatch(query, takenSet) {
-  const q = query.trim().toLowerCase();
+  const q = foldText(query.trim());
   if (!q) return null;
-  const exact = DRIVERS.find((d) => !takenSet.has(d.name) && d.name.toLowerCase() === q);
+  const exact = DRIVERS.find((d) => !takenSet.has(d.name) && foldText(d.name) === q);
   if (exact) return exact;
-  const partial = DRIVERS.filter((d) => !takenSet.has(d.name) && d.name.toLowerCase().includes(q));
+  const partial = DRIVERS.filter((d) => !takenSet.has(d.name) && foldText(d.name).includes(q));
   if (partial.length === 1) return partial[0];
   return null;
 }
@@ -96,11 +102,11 @@ function wireAutocomplete(inputId, suggestionsId, guessedNamesFn, onPick) {
   const suggestions = document.getElementById(suggestionsId);
 
   function update() {
-    const q = input.value.trim().toLowerCase();
+    const q = foldText(input.value.trim());
     const taken = guessedNamesFn();
     suggestions.innerHTML = "";
     if (!q) { suggestions.classList.remove("open"); return; }
-    const matches = DRIVERS.filter((d) => !taken.has(d.name) && d.name.toLowerCase().includes(q)).slice(0, 8);
+    const matches = DRIVERS.filter((d) => !taken.has(d.name) && foldText(d.name).includes(q)).slice(0, 8);
     if (matches.length === 0) { suggestions.classList.remove("open"); return; }
     matches.forEach((d) => {
       const div = document.createElement("div");
@@ -238,8 +244,8 @@ async function submitDailyGuess() {
   const taken = new Set(dailyState ? dailyState.guesses.map((g) => g.guess.name) : []);
   const resolved = resolveMatch(val, taken);
   if (!resolved) {
-    const q = val.toLowerCase();
-    const anyMatch = DRIVERS.some((d) => !taken.has(d.name) && d.name.toLowerCase().includes(q));
+    const q = foldText(val);
+    const anyMatch = DRIVERS.some((d) => !taken.has(d.name) && foldText(d.name).includes(q));
     hint.textContent = anyMatch
       ? "Multiple drivers match — keep typing or pick from the list."
       : "Not in the database — pick a name from the suggestions.";
@@ -358,7 +364,8 @@ function submitPracticeGuess() {
   const taken = new Set(practiceState.guesses.map((g) => g.guess.name));
   const resolved = resolveMatch(val, taken);
   if (!resolved) {
-    const anyMatch = DRIVERS.some((d) => !taken.has(d.name) && d.name.toLowerCase().includes(val));
+    const q = foldText(val);
+    const anyMatch = DRIVERS.some((d) => !taken.has(d.name) && foldText(d.name).includes(q));
     hint.textContent = anyMatch
       ? "Multiple drivers match — keep typing or pick from the list."
       : "Not in the database — pick a name from the suggestions.";
