@@ -1,0 +1,12 @@
+{
+  "name": "paddock-guess",
+  "version": "1.0.0",
+  "description": "A daily F1 driver guessing game with a small local server for history.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
