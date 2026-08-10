@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paddock Guess</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Lights out and away we go</div>
+    <h1>PADDOCK<span>GUESS</span></h1>
+    <p class="sub">Guess the mystery Formula 1 driver. Every guess reveals how close you are.</p>
+  </header>
+  <div class="flagbar"></div>
+
+  <nav class="tabs" id="tabs">
+    <button data-tab="daily" class="tab active">Daily</button>
+    <button data-tab="practice" class="tab">Practice</button>
+    <button data-tab="history" class="tab">History</button>
+  </nav>
+
+  <section id="panel-daily" class="panel">
+    <div class="meta">
+      <span id="puzzleLabel" class="mode-pill"><span class="dot"></span> Daily puzzle</span>
+      <span id="tryLabel">Guess 0 / 8</span>
+    </div>
+
+    <div class="guess-row">
+      <input type="text" id="guessInput" autocomplete="off" placeholder="Type a driver's name…">
+      <button id="guessBtn">Guess</button>
+      <div class="suggestions" id="suggestions"></div>
+    </div>
+    <p class="hint" id="hint">Teams, nationality, debut decade and titles are compared to the answer.</p>
+
+    <div class="tries" id="tries"></div>
+
+    <div class="col-headers">
+      <div>Driver</div>
+      <div>Teams</div>
+      <div>Nationality</div>
+      <div>Debut</div>
+      <div>Titles</div>
+    </div>
+    <div id="rows"></div>
+
+    <div id="banner">
+      <h2 id="bannerTitle"></h2>
+      <p id="bannerBody"></p>
+    </div>
+
+    <div class="actions">
+      <button id="shareBtn" style="display:none;">Share result</button>
+    </div>
+    <div class="legend">
+      <span><i class="hit"></i>correct</span>
+      <span><i class="family"></i>same team lineage</span>
+      <span><i class="miss"></i>no match</span>
+    </div>
+  </section>
+
+  <section id="panel-practice" class="panel" style="display:none;">
+    <div class="meta">
+      <span id="practicePuzzleLabel" class="mode-pill practice"><span class="dot" style="background:var(--amber)"></span> Practice</span>
+      <span id="practiceTryLabel">Guess 0 / 8</span>
+    </div>
+
+    <div class="guess-row">
+      <input type="text" id="practiceInput" autocomplete="off" placeholder="Type a driver's name…">
+      <button id="practiceGuessBtn">Guess</button>
+      <div class="suggestions" id="practiceSuggestions"></div>
+    </div>
+    <p class="hint" id="practiceHint">Pick a difficulty below to start a round.</p>
+
+    <div class="tries" id="practiceTries"></div>
+
+    <div class="col-headers">
+      <div>Driver</div>
+      <div>Teams</div>
+      <div>Nationality</div>
+      <div>Debut</div>
+      <div>Titles</div>
+    </div>
+    <div id="practiceRows"></div>
+
+    <div id="practiceBanner">
+      <h2 id="practiceBannerTitle"></h2>
+      <p id="practiceBannerBody"></p>
+    </div>
+
+    <div class="actions">
+      <button id="rerollEasyBtn">Practice: easy</button>
+      <button id="rerollHardBtn">Practice: hard</button>
+    </div>
+    <div class="legend">
+      <span><i class="hit"></i>correct</span>
+      <span><i class="family"></i>same team lineage</span>
+      <span><i class="miss"></i>no match</span>
+    </div>
+  </section>
+
+  <section id="panel-history" class="panel" style="display:none;">
+    <p class="hint">Answers only appear for days you've already finished — today and any in-progress day stay hidden.</p>
+    <div id="historyList"></div>
+  </section>
+
+  <footer>273 drivers — nearly all with 10+ F1 race starts, plus a set of current/notable names with fewer. Not affiliated with Formula 1 or the FIA.</footer>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
