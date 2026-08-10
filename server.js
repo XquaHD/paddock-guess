@@ -1,4 +1,5 @@
 const express = require("express");
+const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 
@@ -7,24 +8,64 @@ const { compare } = require("./data/compare.js");
 
 const PORT = process.env.PORT || 3000;
 const MAX_GUESSES = 8;
-const LAUNCH_DATE_STR = "2026-01-01";
+const LAUNCH_DATE_STR = "2026-08-11"; // change this to today's date whenever you want puzzle #1 to start
 const DB_PATH = path.join(__dirname, "data", "db.json");
+const COOKIE_NAME = "pg_pid";
 
 const app = express();
+app.set("trust proxy", 1);
 app.use(express.json());
+
+// ---------- tiny cookie-based anonymous session ----------
+// No accounts, no passwords — just a random ID per browser so each
+// visitor gets their own guesses/history instead of sharing one global
+// attempt. The daily *answer* is still the same for everyone.
+
+function parseCookies(header) {
+  const out = {};
+  if (!header) return out;
+  header.split(";").forEach((part) => {
+    const idx = part.indexOf("=");
+    if (idx === -1) return;
+    const k = part.slice(0, idx).trim();
+    const v = part.slice(idx + 1).trim();
+    if (k) out[k] = decodeURIComponent(v);
+  });
+  return out;
+}
+
+app.use((req, res, next) => {
+  const cookies = parseCookies(req.headers.cookie);
+  let pid = cookies[COOKIE_NAME];
+  if (!pid) {
+    pid = crypto.randomUUID();
+    const oneYear = 365 * 24 * 60 * 60;
+    const secureFlag = req.secure ? "; Secure" : "";
+    res.setHeader(
+      "Set-Cookie",
+      `${COOKIE_NAME}=${pid}; Max-Age=${oneYear}; Path=/; HttpOnly; SameSite=Lax${secureFlag}`
+    );
+  }
+  req.playerId = pid;
+  next();
+});
+
 app.use(express.static(path.join(__dirname, "public")));
 
 // ---------- tiny JSON file "database" ----------
 
 function loadDB() {
   if (!fs.existsSync(DB_PATH)) {
-    return { puzzles: {} };
+    return { puzzles: {}, players: {} };
   }
   try {
-    return JSON.parse(fs.readFileSync(DB_PATH, "utf8"));
+    const db = JSON.parse(fs.readFileSync(DB_PATH, "utf8"));
+    if (!db.puzzles) db.puzzles = {};
+    if (!db.players) db.players = {};
+    return db;
   } catch (e) {
     console.error("Could not read db.json, starting fresh:", e.message);
-    return { puzzles: {} };
+    return { puzzles: {}, players: {} };
   }
 }
 
@@ -75,28 +116,33 @@ function findDriver(name) {
   return DRIVERS.find((d) => d.name === name);
 }
 
-// ---------- puzzle state ----------
+// ---------- puzzle (shared answer) + per-player guesses ----------
 
 function getOrCreatePuzzle(db, dateStr) {
   if (!db.puzzles[dateStr]) {
     db.puzzles[dateStr] = {
       puzzleNumber: puzzleNumberFor(dateStr),
-      driverName: pickDailyDriver(dateStr),
-      guesses: []
+      driverName: pickDailyDriver(dateStr)
     };
     saveDB(db);
   }
   return db.puzzles[dateStr];
 }
 
-function publicState(puzzle, dateStr) {
+function getPlayerGuesses(db, playerId, dateStr) {
+  if (!db.players[playerId]) db.players[playerId] = {};
+  if (!db.players[playerId][dateStr]) db.players[playerId][dateStr] = { guesses: [] };
+  return db.players[playerId][dateStr];
+}
+
+function publicState(puzzle, playerEntry, dateStr) {
   const answerDriver = findDriver(puzzle.driverName);
-  const guesses = puzzle.guesses.map((name) => {
+  const guesses = playerEntry.guesses.map((name) => {
     const guessDriver = findDriver(name);
     return { guess: guessDriver, result: compare(guessDriver, answerDriver) };
   });
-  const won = puzzle.guesses.includes(puzzle.driverName);
-  const completed = won || puzzle.guesses.length >= MAX_GUESSES;
+  const won = playerEntry.guesses.includes(puzzle.driverName);
+  const completed = won || playerEntry.guesses.length >= MAX_GUESSES;
   return {
     date: dateStr,
     puzzleNumber: puzzle.puzzleNumber,
@@ -114,19 +160,27 @@ app.get("/api/drivers", (req, res) => {
   res.json(DRIVERS);
 });
 
+// Visit this in a browser to see your own session ID. Load it on two
+// different devices/browsers and compare — they should always differ.
+app.get("/api/whoami", (req, res) => {
+  res.json({ playerId: req.playerId });
+});
+
 app.get("/api/daily", (req, res) => {
   const db = loadDB();
   const dateStr = toDateStr(new Date());
   const puzzle = getOrCreatePuzzle(db, dateStr);
-  res.json(publicState(puzzle, dateStr));
+  const playerEntry = getPlayerGuesses(db, req.playerId, dateStr);
+  res.json(publicState(puzzle, playerEntry, dateStr));
 });
 
 app.post("/api/daily/guess", (req, res) => {
   const db = loadDB();
   const dateStr = toDateStr(new Date());
   const puzzle = getOrCreatePuzzle(db, dateStr);
+  const playerEntry = getPlayerGuesses(db, req.playerId, dateStr);
 
-  const state = publicState(puzzle, dateStr);
+  const state = publicState(puzzle, playerEntry, dateStr);
   if (state.completed) {
     return res.status(400).json({ error: "Today's puzzle is already finished." });
   }
@@ -138,14 +192,14 @@ app.post("/api/daily/guess", (req, res) => {
   if (!driver) {
     return res.status(400).json({ error: "Unknown driver name." });
   }
-  if (puzzle.guesses.includes(driver.name)) {
+  if (playerEntry.guesses.includes(driver.name)) {
     return res.status(400).json({ error: "Already guessed that one." });
   }
 
-  puzzle.guesses.push(driver.name);
+  playerEntry.guesses.push(driver.name);
   saveDB(db);
 
-  res.json(publicState(puzzle, dateStr));
+  res.json(publicState(puzzle, playerEntry, dateStr));
 });
 
 app.get("/api/history", (req, res) => {
@@ -157,40 +211,33 @@ app.get("/api/history", (req, res) => {
   end.setHours(0, 0, 0, 0);
   start.setHours(0, 0, 0, 0);
 
+  const playerEntries = db.players[req.playerId] || {};
   const days = [];
   for (let t = new Date(end); t >= start; t.setDate(t.getDate() - 1)) {
     const dateStr = toDateStr(t);
     const puzzle = db.puzzles[dateStr];
     const puzzleNumber = puzzleNumberFor(dateStr);
+    const playerEntry = playerEntries[dateStr];
 
-    if (!puzzle) {
-      days.push({
-        date: dateStr,
-        puzzleNumber,
-        status: "unplayed",
-        guessCount: 0
-      });
+    if (!playerEntry || playerEntry.guesses.length === 0) {
+      days.push({ date: dateStr, puzzleNumber, status: "unplayed", guessCount: 0 });
       continue;
     }
 
-    const won = puzzle.guesses.includes(puzzle.driverName);
-    const completed = won || puzzle.guesses.length >= MAX_GUESSES;
+    const driverName = puzzle ? puzzle.driverName : pickDailyDriver(dateStr);
+    const won = playerEntry.guesses.includes(driverName);
+    const completed = won || playerEntry.guesses.length >= MAX_GUESSES;
 
     if (!completed) {
-      days.push({
-        date: dateStr,
-        puzzleNumber,
-        status: "in-progress",
-        guessCount: puzzle.guesses.length
-      });
+      days.push({ date: dateStr, puzzleNumber, status: "in-progress", guessCount: playerEntry.guesses.length });
     } else {
       days.push({
         date: dateStr,
         puzzleNumber,
         status: "completed",
-        guessCount: puzzle.guesses.length,
+        guessCount: playerEntry.guesses.length,
         won,
-        answer: findDriver(puzzle.driverName)
+        answer: findDriver(driverName)
       });
     }
   }
@@ -199,5 +246,5 @@ app.get("/api/history", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Paddock Guess running at http://localhost:${PORT}`);
+  console.log(`Paddock Guess running on port ${PORT}`);
 });
