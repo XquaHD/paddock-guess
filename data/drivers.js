@@ -15,7 +15,7 @@ module.exports = [
     "titles": 2,
     "starts": 436,
     "wins": 32,
-    "points": 2394.0
+    "points": 2394
   },
   {
     "name": "Lewis Hamilton",
@@ -47,7 +47,7 @@ module.exports = [
     "titles": 1,
     "starts": 349,
     "wins": 21,
-    "points": 1873.0
+    "points": 1873
   },
   {
     "name": "Rubens Barrichello",
@@ -65,7 +65,7 @@ module.exports = [
     "titles": 0,
     "starts": 322,
     "wins": 11,
-    "points": 658.0
+    "points": 658
   },
   {
     "name": "Jenson Button",
@@ -83,7 +83,7 @@ module.exports = [
     "titles": 1,
     "starts": 306,
     "wins": 15,
-    "points": 1235.0
+    "points": 1235
   },
   {
     "name": "Michael Schumacher",
@@ -99,7 +99,7 @@ module.exports = [
     "titles": 7,
     "starts": 306,
     "wins": 91,
-    "points": 1566.0
+    "points": 1566
   },
   {
     "name": "Sebastian Vettel",
@@ -116,7 +116,7 @@ module.exports = [
     "titles": 4,
     "starts": 299,
     "wins": 53,
-    "points": 3098.0
+    "points": 3098
   },
   {
     "name": "Sergio Pérez",
@@ -133,7 +133,7 @@ module.exports = [
     "titles": 0,
     "starts": 292,
     "wins": 6,
-    "points": 1638.0
+    "points": 1638
   },
   {
     "name": "Felipe Massa",
@@ -148,7 +148,7 @@ module.exports = [
     "titles": 0,
     "starts": 269,
     "wins": 11,
-    "points": 1167.0
+    "points": 1167
   },
   {
     "name": "Nico Hülkenberg",
@@ -166,7 +166,7 @@ module.exports = [
     "titles": 0,
     "starts": 260,
     "wins": 0,
-    "points": 624.0
+    "points": 624
   },
   {
     "name": "Valtteri Bottas",
@@ -182,7 +182,7 @@ module.exports = [
     "titles": 0,
     "starts": 257,
     "wins": 10,
-    "points": 1797.0
+    "points": 1797
   },
   {
     "name": "Daniel Ricciardo",
@@ -200,7 +200,7 @@ module.exports = [
     "titles": 0,
     "starts": 257,
     "wins": 8,
-    "points": 1329.0
+    "points": 1329
   },
   {
     "name": "Riccardo Patrese",
@@ -218,7 +218,7 @@ module.exports = [
     "titles": 0,
     "starts": 256,
     "wins": 6,
-    "points": 281.0
+    "points": 281
   },
   {
     "name": "Jarno Trulli",
@@ -251,7 +251,7 @@ module.exports = [
     "titles": 0,
     "starts": 246,
     "wins": 13,
-    "points": 535.0
+    "points": 535
   },
   {
     "name": "Carlos Sainz Jr.",
@@ -300,7 +300,7 @@ module.exports = [
     "titles": 0,
     "starts": 229,
     "wins": 3,
-    "points": 275.0
+    "points": 275
   },
   {
     "name": "Mark Webber",
@@ -353,7 +353,7 @@ module.exports = [
     "titles": 0,
     "starts": 208,
     "wins": 0,
-    "points": 59.0
+    "points": 59
   },
   {
     "name": "Gerhard Berger",
@@ -370,7 +370,7 @@ module.exports = [
     "titles": 0,
     "starts": 210,
     "wins": 10,
-    "points": 385.0
+    "points": 385
   },
   {
     "name": "Nelson Piquet",
@@ -416,7 +416,7 @@ module.exports = [
     "titles": 0,
     "starts": 200,
     "wins": 0,
-    "points": 325.0
+    "points": 325
   },
   {
     "name": "Jean Alesi",
@@ -434,7 +434,7 @@ module.exports = [
     "titles": 0,
     "starts": 201,
     "wins": 1,
-    "points": 241.0
+    "points": 241
   },
   {
     "name": "Alain Prost",
@@ -466,7 +466,7 @@ module.exports = [
     "titles": 1,
     "starts": 187,
     "wins": 31,
-    "points": 480.0
+    "points": 480
   },
   {
     "name": "Esteban Ocon",
@@ -483,7 +483,7 @@ module.exports = [
     "titles": 0,
     "starts": 191,
     "wins": 1,
-    "points": 486.0
+    "points": 486
   },
   {
     "name": "Pierre Gasly",
@@ -498,7 +498,7 @@ module.exports = [
     "titles": 0,
     "starts": 188,
     "wins": 1,
-    "points": 500.0
+    "points": 500
   },
   {
     "name": "Kevin Magnussen",
@@ -513,7 +513,7 @@ module.exports = [
     "titles": 0,
     "starts": 185,
     "wins": 0,
-    "points": 202.0
+    "points": 202
   },
   {
     "name": "Nick Heidfeld",
@@ -531,7 +531,7 @@ module.exports = [
     "titles": 0,
     "starts": 183,
     "wins": 0,
-    "points": 259.0
+    "points": 259
   },
   {
     "name": "Charles Leclerc",
@@ -545,7 +545,7 @@ module.exports = [
     "titles": 0,
     "starts": 182,
     "wins": 9,
-    "points": 1810.0
+    "points": 1810
   },
   {
     "name": "Romain Grosjean",
@@ -560,7 +560,7 @@ module.exports = [
     "titles": 0,
     "starts": 179,
     "wins": 0,
-    "points": 391.0
+    "points": 391
   },
   {
     "name": "Ralf Schumacher",
@@ -575,7 +575,7 @@ module.exports = [
     "titles": 0,
     "starts": 180,
     "wins": 6,
-    "points": 329.0
+    "points": 329
   },
   {
     "name": "Jacques Laffite",
@@ -589,7 +589,7 @@ module.exports = [
     "titles": 0,
     "starts": 176,
     "wins": 6,
-    "points": 228.0
+    "points": 228
   },
   {
     "name": "Graham Hill",
@@ -604,7 +604,7 @@ module.exports = [
     "titles": 2,
     "starts": 176,
     "wins": 14,
-    "points": 270.0
+    "points": 270
   },
   {
     "name": "Niki Lauda",
@@ -639,7 +639,7 @@ module.exports = [
     "titles": 0,
     "starts": 158,
     "wins": 0,
-    "points": 98.0
+    "points": 98
   },
   {
     "name": "Mika Häkkinen",
@@ -653,7 +653,7 @@ module.exports = [
     "titles": 2,
     "starts": 161,
     "wins": 20,
-    "points": 420.0
+    "points": 420
   },
   {
     "name": "Johnny Herbert",
@@ -670,7 +670,7 @@ module.exports = [
     "titles": 0,
     "starts": 160,
     "wins": 3,
-    "points": 98.0
+    "points": 98
   },
   {
     "name": "Jacques Villeneuve",
@@ -684,7 +684,7 @@ module.exports = [
     "titles": 1,
     "starts": 163,
     "wins": 11,
-    "points": 235.0
+    "points": 235
   },
   {
     "name": "René Arnoux",
@@ -700,7 +700,7 @@ module.exports = [
     "titles": 0,
     "starts": 149,
     "wins": 7,
-    "points": 181.0
+    "points": 181
   },
   {
     "name": "Thierry Boutsen",
@@ -717,7 +717,7 @@ module.exports = [
     "titles": 0,
     "starts": 163,
     "wins": 3,
-    "points": 132.0
+    "points": 132
   },
   {
     "name": "Lando Norris",
@@ -730,7 +730,7 @@ module.exports = [
     "titles": 1,
     "starts": 162,
     "wins": 12,
-    "points": 1558.0
+    "points": 1558
   },
   {
     "name": "George Russell",
@@ -744,7 +744,7 @@ module.exports = [
     "titles": 0,
     "starts": 163,
     "wins": 7,
-    "points": 1193.0
+    "points": 1193
   },
   {
     "name": "Ayrton Senna",
@@ -760,7 +760,7 @@ module.exports = [
     "titles": 3,
     "starts": 161,
     "wins": 41,
-    "points": 610.0
+    "points": 610
   },
   {
     "name": "Derek Warwick",
@@ -778,7 +778,7 @@ module.exports = [
     "titles": 0,
     "starts": 147,
     "wins": 0,
-    "points": 71.0
+    "points": 71
   },
   {
     "name": "Heinz-Harald Frentzen",
@@ -795,7 +795,7 @@ module.exports = [
     "titles": 0,
     "starts": 156,
     "wins": 3,
-    "points": 174.0
+    "points": 174
   },
   {
     "name": "Olivier Panis",
@@ -811,7 +811,7 @@ module.exports = [
     "titles": 0,
     "starts": 157,
     "wins": 1,
-    "points": 76.0
+    "points": 76
   },
   {
     "name": "John Watson",
@@ -827,7 +827,7 @@ module.exports = [
     "titles": 0,
     "starts": 152,
     "wins": 5,
-    "points": 169.0
+    "points": 169
   },
   {
     "name": "Emerson Fittipaldi",
@@ -842,7 +842,7 @@ module.exports = [
     "titles": 2,
     "starts": 144,
     "wins": 14,
-    "points": 281.0
+    "points": 281
   },
   {
     "name": "Eddie Irvine",
@@ -857,7 +857,7 @@ module.exports = [
     "titles": 0,
     "starts": 145,
     "wins": 4,
-    "points": 191.0
+    "points": 191
   },
   {
     "name": "Carlos Reutemann",
@@ -873,7 +873,7 @@ module.exports = [
     "titles": 0,
     "starts": 146,
     "wins": 12,
-    "points": 298.0
+    "points": 298
   },
   {
     "name": "Eddie Cheever",
@@ -890,7 +890,7 @@ module.exports = [
     "titles": 0,
     "starts": 132,
     "wins": 0,
-    "points": 70.0
+    "points": 70
   },
   {
     "name": "Jean-Pierre Jarier",
@@ -922,7 +922,7 @@ module.exports = [
     "titles": 0,
     "starts": 138,
     "wins": 0,
-    "points": 318.0
+    "points": 318
   },
   {
     "name": "Clay Regazzoni",
@@ -938,7 +938,7 @@ module.exports = [
     "titles": 0,
     "starts": 132,
     "wins": 5,
-    "points": 209.0
+    "points": 209
   },
   {
     "name": "Mario Andretti",
@@ -954,7 +954,7 @@ module.exports = [
     "titles": 1,
     "starts": 128,
     "wins": 12,
-    "points": 180.0
+    "points": 180
   },
   {
     "name": "Jack Brabham",
@@ -968,7 +968,7 @@ module.exports = [
     "titles": 3,
     "starts": 126,
     "wins": 14,
-    "points": 253.0
+    "points": 253
   },
   {
     "name": "Keke Rosberg",
@@ -1000,7 +1000,7 @@ module.exports = [
     "titles": 0,
     "starts": 128,
     "wins": 0,
-    "points": 124.0
+    "points": 124
   },
   {
     "name": "Pierluigi Martini",
@@ -1013,7 +1013,7 @@ module.exports = [
     "titles": 0,
     "starts": 118,
     "wins": 0,
-    "points": 18.0
+    "points": 18
   },
   {
     "name": "Ronnie Peterson",
@@ -1029,7 +1029,7 @@ module.exports = [
     "titles": 0,
     "starts": 123,
     "wins": 10,
-    "points": 206.0
+    "points": 206
   },
   {
     "name": "Patrick Tambay",
@@ -1045,7 +1045,7 @@ module.exports = [
     "titles": 0,
     "starts": 114,
     "wins": 2,
-    "points": 103.0
+    "points": 103
   },
   {
     "name": "Damon Hill",
@@ -1061,7 +1061,7 @@ module.exports = [
     "titles": 1,
     "starts": 115,
     "wins": 22,
-    "points": 360.0
+    "points": 360
   },
   {
     "name": "Jacky Ickx",
@@ -1077,7 +1077,7 @@ module.exports = [
     "titles": 0,
     "starts": 116,
     "wins": 8,
-    "points": 181.0
+    "points": 181
   },
   {
     "name": "Alan Jones",
@@ -1094,7 +1094,7 @@ module.exports = [
     "titles": 1,
     "starts": 116,
     "wins": 12,
-    "points": 199.0
+    "points": 199
   },
   {
     "name": "Philippe Alliot",
@@ -1109,7 +1109,7 @@ module.exports = [
     "titles": 0,
     "starts": 109,
     "wins": 0,
-    "points": 7.0
+    "points": 7
   },
   {
     "name": "Jochen Mass",
@@ -1126,7 +1126,7 @@ module.exports = [
     "titles": 0,
     "starts": 105,
     "wins": 1,
-    "points": 71.0
+    "points": 71
   },
   {
     "name": "Yuki Tsunoda",
@@ -1141,7 +1141,7 @@ module.exports = [
     "titles": 0,
     "starts": 111,
     "wins": 0,
-    "points": 124.0
+    "points": 124
   },
   {
     "name": "Jody Scheckter",
@@ -1157,7 +1157,7 @@ module.exports = [
     "titles": 1,
     "starts": 112,
     "wins": 10,
-    "points": 246.0
+    "points": 246
   },
   {
     "name": "John Surtees",
@@ -1173,7 +1173,7 @@ module.exports = [
     "titles": 1,
     "starts": 111,
     "wins": 6,
-    "points": 180.0
+    "points": 180
   },
   {
     "name": "Denny Hulme",
@@ -1187,7 +1187,7 @@ module.exports = [
     "titles": 1,
     "starts": 112,
     "wins": 8,
-    "points": 248.0
+    "points": 248
   },
   {
     "name": "Heikki Kovalainen",
@@ -1202,7 +1202,7 @@ module.exports = [
     "titles": 0,
     "starts": 111,
     "wins": 1,
-    "points": 105.0
+    "points": 105
   },
   {
     "name": "Daniil Kvyat",
@@ -1216,7 +1216,7 @@ module.exports = [
     "titles": 0,
     "starts": 110,
     "wins": 0,
-    "points": 202.0
+    "points": 202
   },
   {
     "name": "Piercarlo Ghinzani",
@@ -1232,7 +1232,7 @@ module.exports = [
     "titles": 0,
     "starts": 74,
     "wins": 0,
-    "points": 2.0
+    "points": 2
   },
   {
     "name": "Mika Salo",
@@ -1250,7 +1250,7 @@ module.exports = [
     "titles": 0,
     "starts": 109,
     "wins": 0,
-    "points": 33.0
+    "points": 33
   },
   {
     "name": "Elio de Angelis",
@@ -1265,7 +1265,7 @@ module.exports = [
     "titles": 0,
     "starts": 108,
     "wins": 2,
-    "points": 122.0
+    "points": 122
   },
   {
     "name": "Chris Amon",
@@ -1281,7 +1281,7 @@ module.exports = [
     "titles": 0,
     "starts": 96,
     "wins": 0,
-    "points": 83.0
+    "points": 83
   },
   {
     "name": "Jo Bonnier",
@@ -1297,7 +1297,7 @@ module.exports = [
     "titles": 0,
     "starts": 104,
     "wins": 1,
-    "points": 39.0
+    "points": 39
   },
   {
     "name": "Pedro de la Rosa",
@@ -1314,7 +1314,7 @@ module.exports = [
     "titles": 0,
     "starts": 104,
     "wins": 0,
-    "points": 35.0
+    "points": 35
   },
   {
     "name": "Jos Verstappen",
@@ -1332,7 +1332,7 @@ module.exports = [
     "titles": 0,
     "starts": 106,
     "wins": 0,
-    "points": 17.0
+    "points": 17
   },
   {
     "name": "Bruce McLaren",
@@ -1362,7 +1362,7 @@ module.exports = [
     "titles": 0,
     "starts": 79,
     "wins": 0,
-    "points": 88.0
+    "points": 88
   },
   {
     "name": "Jo Siffert",
@@ -1377,7 +1377,7 @@ module.exports = [
     "titles": 0,
     "starts": 96,
     "wins": 2,
-    "points": 68.0
+    "points": 68
   },
   {
     "name": "Jackie Stewart",
@@ -1392,7 +1392,7 @@ module.exports = [
     "titles": 3,
     "starts": 99,
     "wins": 27,
-    "points": 359.0
+    "points": 359
   },
   {
     "name": "Pedro Diniz",
@@ -1408,7 +1408,7 @@ module.exports = [
     "titles": 0,
     "starts": 98,
     "wins": 0,
-    "points": 10.0
+    "points": 10
   },
   {
     "name": "Robert Kubica",
@@ -1424,7 +1424,7 @@ module.exports = [
     "titles": 0,
     "starts": 99,
     "wins": 1,
-    "points": 274.0
+    "points": 274
   },
   {
     "name": "Ivan Capelli",
@@ -1440,7 +1440,7 @@ module.exports = [
     "titles": 0,
     "starts": 93,
     "wins": 0,
-    "points": 31.0
+    "points": 31
   },
   {
     "name": "Marcus Ericsson",
@@ -1454,7 +1454,7 @@ module.exports = [
     "titles": 0,
     "starts": 97,
     "wins": 0,
-    "points": 18.0
+    "points": 18
   },
   {
     "name": "Ukyo Katayama",
@@ -1468,7 +1468,7 @@ module.exports = [
     "titles": 0,
     "starts": 95,
     "wins": 0,
-    "points": 5.0
+    "points": 5
   },
   {
     "name": "Pastor Maldonado",
@@ -1482,7 +1482,7 @@ module.exports = [
     "titles": 0,
     "starts": 95,
     "wins": 1,
-    "points": 76.0
+    "points": 76
   },
   {
     "name": "Patrick Depailler",
@@ -1497,7 +1497,7 @@ module.exports = [
     "titles": 0,
     "starts": 95,
     "wins": 2,
-    "points": 139.0
+    "points": 139
   },
   {
     "name": "Timo Glock",
@@ -1512,7 +1512,7 @@ module.exports = [
     "titles": 0,
     "starts": 91,
     "wins": 0,
-    "points": 51.0
+    "points": 51
   },
   {
     "name": "Juan Pablo Montoya",
@@ -1526,7 +1526,7 @@ module.exports = [
     "titles": 0,
     "starts": 94,
     "wins": 7,
-    "points": 307.0
+    "points": 307
   },
   {
     "name": "James Hunt",
@@ -1541,7 +1541,7 @@ module.exports = [
     "titles": 1,
     "starts": 92,
     "wins": 10,
-    "points": 179.0
+    "points": 179
   },
   {
     "name": "Takuma Sato",
@@ -1556,7 +1556,7 @@ module.exports = [
     "titles": 0,
     "starts": 90,
     "wins": 0,
-    "points": 44.0
+    "points": 44
   },
   {
     "name": "Jean-Pierre Beltoise",
@@ -1570,7 +1570,7 @@ module.exports = [
     "titles": 0,
     "starts": 86,
     "wins": 1,
-    "points": 77.0
+    "points": 77
   },
   {
     "name": "Jonathan Palmer",
@@ -1586,7 +1586,7 @@ module.exports = [
     "titles": 0,
     "starts": 83,
     "wins": 0,
-    "points": 14.0
+    "points": 14
   },
   {
     "name": "Marc Surer",
@@ -1602,7 +1602,7 @@ module.exports = [
     "titles": 0,
     "starts": 82,
     "wins": 0,
-    "points": 17.0
+    "points": 17
   },
   {
     "name": "Aguri Suzuki",
@@ -1620,7 +1620,7 @@ module.exports = [
     "titles": 0,
     "starts": 65,
     "wins": 0,
-    "points": 8.0
+    "points": 8
   },
   {
     "name": "Dan Gurney",
@@ -1636,7 +1636,7 @@ module.exports = [
     "titles": 0,
     "starts": 86,
     "wins": 4,
-    "points": 133.0
+    "points": 133
   },
   {
     "name": "Arturo Merzario",
@@ -1651,7 +1651,7 @@ module.exports = [
     "titles": 0,
     "starts": 57,
     "wins": 0,
-    "points": 11.0
+    "points": 11
   },
   {
     "name": "Bertrand Gachot",
@@ -1669,7 +1669,7 @@ module.exports = [
     "titles": 0,
     "starts": 47,
     "wins": 0,
-    "points": 5.0
+    "points": 5
   },
   {
     "name": "Maurice Trintignant",
@@ -1700,7 +1700,7 @@ module.exports = [
     "titles": 0,
     "starts": 69,
     "wins": 0,
-    "points": 14.0
+    "points": 14
   },
   {
     "name": "Vitantonio Liuzzi",
@@ -1716,7 +1716,7 @@ module.exports = [
     "titles": 0,
     "starts": 80,
     "wins": 0,
-    "points": 26.0
+    "points": 26
   },
   {
     "name": "Stefano Modena",
@@ -1732,7 +1732,7 @@ module.exports = [
     "titles": 0,
     "starts": 70,
     "wins": 0,
-    "points": 17.0
+    "points": 17
   },
   {
     "name": "Oscar Piastri",
@@ -1745,7 +1745,7 @@ module.exports = [
     "titles": 0,
     "starts": 79,
     "wins": 9,
-    "points": 891.0
+    "points": 891
   },
   {
     "name": "Hans-Joachim Stuck",
@@ -1761,7 +1761,7 @@ module.exports = [
     "titles": 0,
     "starts": 74,
     "wins": 0,
-    "points": 29.0
+    "points": 29
   },
   {
     "name": "Maurício Gugelmin",
@@ -1775,7 +1775,7 @@ module.exports = [
     "titles": 0,
     "starts": 74,
     "wins": 0,
-    "points": 10.0
+    "points": 10
   },
   {
     "name": "Satoru Nakajima",
@@ -1789,7 +1789,7 @@ module.exports = [
     "titles": 0,
     "starts": 74,
     "wins": 0,
-    "points": 16.0
+    "points": 16
   },
   {
     "name": "Vittorio Brambilla",
@@ -1821,7 +1821,7 @@ module.exports = [
     "titles": 0,
     "starts": 38,
     "wins": 0,
-    "points": 1.0
+    "points": 1
   },
   {
     "name": "Alessandro Nannini",
@@ -1835,7 +1835,7 @@ module.exports = [
     "titles": 0,
     "starts": 76,
     "wins": 1,
-    "points": 65.0
+    "points": 65
   },
   {
     "name": "Roberto Moreno",
@@ -1852,7 +1852,7 @@ module.exports = [
     "titles": 0,
     "starts": 41,
     "wins": 0,
-    "points": 15.0
+    "points": 15
   },
   {
     "name": "Kamui Kobayashi",
@@ -1867,7 +1867,7 @@ module.exports = [
     "titles": 0,
     "starts": 75,
     "wins": 0,
-    "points": 125.0
+    "points": 125
   },
   {
     "name": "Alex Caffi",
@@ -1884,7 +1884,7 @@ module.exports = [
     "titles": 0,
     "starts": 56,
     "wins": 0,
-    "points": 6.0
+    "points": 6
   },
   {
     "name": "Nicola Larini",
@@ -1900,7 +1900,7 @@ module.exports = [
     "titles": 0,
     "starts": 49,
     "wins": 0,
-    "points": 7.0
+    "points": 7
   },
   {
     "name": "Jim Clark",
@@ -1913,7 +1913,7 @@ module.exports = [
     "titles": 2,
     "starts": 72,
     "wins": 25,
-    "points": 255.0
+    "points": 255
   },
   {
     "name": "Carlos Pace",
@@ -1928,7 +1928,7 @@ module.exports = [
     "titles": 0,
     "starts": 72,
     "wins": 1,
-    "points": 58.0
+    "points": 58
   },
   {
     "name": "Didier Pironi",
@@ -1943,7 +1943,7 @@ module.exports = [
     "titles": 0,
     "starts": 70,
     "wins": 3,
-    "points": 101.0
+    "points": 101
   },
   {
     "name": "Teo Fabi",
@@ -1959,7 +1959,7 @@ module.exports = [
     "titles": 0,
     "starts": 64,
     "wins": 0,
-    "points": 23.0
+    "points": 23
   },
   {
     "name": "JJ Lehto",
@@ -1975,7 +1975,7 @@ module.exports = [
     "titles": 0,
     "starts": 62,
     "wins": 0,
-    "points": 10.0
+    "points": 10
   },
   {
     "name": "Gianni Morbidelli",
@@ -2005,7 +2005,7 @@ module.exports = [
     "titles": 0,
     "starts": 69,
     "wins": 0,
-    "points": 45.0
+    "points": 45
   },
   {
     "name": "Gilles Villeneuve",
@@ -2019,7 +2019,7 @@ module.exports = [
     "titles": 0,
     "starts": 67,
     "wins": 6,
-    "points": 101.0
+    "points": 101
   },
   {
     "name": "Zhou Guanyu",
@@ -2033,7 +2033,7 @@ module.exports = [
     "titles": 0,
     "starts": 68,
     "wins": 0,
-    "points": 16.0
+    "points": 16
   },
   {
     "name": "Stirling Moss",
@@ -2069,7 +2069,7 @@ module.exports = [
     "titles": 0,
     "starts": 49,
     "wins": 0,
-    "points": 15.0
+    "points": 15
   },
   {
     "name": "Henri Pescarolo",
@@ -2086,7 +2086,7 @@ module.exports = [
     "titles": 0,
     "starts": 57,
     "wins": 0,
-    "points": 12.0
+    "points": 12
   },
   {
     "name": "Mark Blundell",
@@ -2103,7 +2103,7 @@ module.exports = [
     "titles": 0,
     "starts": 61,
     "wins": 0,
-    "points": 32.0
+    "points": 32
   },
   {
     "name": "Érik Comas",
@@ -2117,7 +2117,7 @@ module.exports = [
     "titles": 0,
     "starts": 59,
     "wins": 0,
-    "points": 7.0
+    "points": 7
   },
   {
     "name": "Rolf Stommelen",
@@ -2133,7 +2133,7 @@ module.exports = [
     "titles": 0,
     "starts": 54,
     "wins": 0,
-    "points": 14.0
+    "points": 14
   },
   {
     "name": "Antonio Giovinazzi",
@@ -2147,7 +2147,7 @@ module.exports = [
     "titles": 0,
     "starts": 62,
     "wins": 0,
-    "points": 21.0
+    "points": 21
   },
   {
     "name": "Olivier Grouillard",
@@ -2164,7 +2164,7 @@ module.exports = [
     "titles": 0,
     "starts": 41,
     "wins": 0,
-    "points": 1.0
+    "points": 1
   },
   {
     "name": "Jochen Rindt",
@@ -2179,7 +2179,7 @@ module.exports = [
     "titles": 1,
     "starts": 60,
     "wins": 6,
-    "points": 107.0
+    "points": 107
   },
   {
     "name": "Nicholas Latifi",
@@ -2192,7 +2192,7 @@ module.exports = [
     "titles": 0,
     "starts": 61,
     "wins": 0,
-    "points": 9.0
+    "points": 9
   },
   {
     "name": "Esteban Gutiérrez",
@@ -2206,7 +2206,7 @@ module.exports = [
     "titles": 0,
     "starts": 59,
     "wins": 0,
-    "points": 6.0
+    "points": 6
   },
   {
     "name": "Paul di Resta",
@@ -2219,7 +2219,7 @@ module.exports = [
     "titles": 0,
     "starts": 59,
     "wins": 0,
-    "points": 121.0
+    "points": 121
   },
   {
     "name": "Luca Badoer",
@@ -2234,7 +2234,7 @@ module.exports = [
     "titles": 0,
     "starts": 50,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Vitaly Petrov",
@@ -2248,7 +2248,7 @@ module.exports = [
     "titles": 0,
     "starts": 57,
     "wins": 0,
-    "points": 64.0
+    "points": 64
   },
   {
     "name": "Héctor Rebaque",
@@ -2263,7 +2263,7 @@ module.exports = [
     "titles": 0,
     "starts": 41,
     "wins": 0,
-    "points": 13.0
+    "points": 13
   },
   {
     "name": "Jean-Éric Vergne",
@@ -2276,7 +2276,7 @@ module.exports = [
     "titles": 0,
     "starts": 58,
     "wins": 0,
-    "points": 51.0
+    "points": 51
   },
   {
     "name": "Harry Schell",
@@ -2292,7 +2292,7 @@ module.exports = [
     "titles": 0,
     "starts": 55,
     "wins": 0,
-    "points": 32.0
+    "points": 32
   },
   {
     "name": "Pedro Rodríguez",
@@ -2308,7 +2308,7 @@ module.exports = [
     "titles": 0,
     "starts": 55,
     "wins": 2,
-    "points": 71.0
+    "points": 71
   },
   {
     "name": "Manfred Winkelhock",
@@ -2323,7 +2323,7 @@ module.exports = [
     "titles": 0,
     "starts": 47,
     "wins": 0,
-    "points": 2.0
+    "points": 2
   },
   {
     "name": "Sébastien Buemi",
@@ -2336,7 +2336,7 @@ module.exports = [
     "titles": 0,
     "starts": 55,
     "wins": 0,
-    "points": 29.0
+    "points": 29
   },
   {
     "name": "Jean-Pierre Jabouille",
@@ -2351,7 +2351,7 @@ module.exports = [
     "titles": 0,
     "starts": 49,
     "wins": 2,
-    "points": 21.0
+    "points": 21
   },
   {
     "name": "Philippe Streiff",
@@ -2366,7 +2366,7 @@ module.exports = [
     "titles": 0,
     "starts": 54,
     "wins": 0,
-    "points": 11.0
+    "points": 11
   },
   {
     "name": "Richie Ginther",
@@ -2381,7 +2381,7 @@ module.exports = [
     "titles": 0,
     "starts": 52,
     "wins": 1,
-    "points": 102.0
+    "points": 102
   },
   {
     "name": "Jean Behra",
@@ -2410,7 +2410,7 @@ module.exports = [
     "titles": 0,
     "starts": 50,
     "wins": 1,
-    "points": 47.0
+    "points": 47
   },
   {
     "name": "Juan Manuel Fangio",
@@ -2426,7 +2426,7 @@ module.exports = [
     "titles": 5,
     "starts": 51,
     "wins": 24,
-    "points": 245.0
+    "points": 245
   },
   {
     "name": "Phil Hill",
@@ -2439,7 +2439,7 @@ module.exports = [
     "titles": 1,
     "starts": 49,
     "wins": 3,
-    "points": 94.0
+    "points": 94
   },
   {
     "name": "Jackie Oliver",
@@ -2454,7 +2454,7 @@ module.exports = [
     "titles": 0,
     "starts": 50,
     "wins": 0,
-    "points": 13.0
+    "points": 13
   },
   {
     "name": "Christian Klien",
@@ -2469,7 +2469,7 @@ module.exports = [
     "titles": 0,
     "starts": 49,
     "wins": 0,
-    "points": 14.0
+    "points": 14
   },
   {
     "name": "Mike Hailwood",
@@ -2484,7 +2484,7 @@ module.exports = [
     "titles": 0,
     "starts": 50,
     "wins": 0,
-    "points": 29.0
+    "points": 29
   },
   {
     "name": "Roy Salvadori",
@@ -2501,7 +2501,7 @@ module.exports = [
     "titles": 0,
     "starts": 47,
     "wins": 0,
-    "points": 19.0
+    "points": 19
   },
   {
     "name": "Yannick Dalmas",
@@ -2516,7 +2516,7 @@ module.exports = [
     "titles": 0,
     "starts": 24,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "François Cevert",
@@ -2529,7 +2529,7 @@ module.exports = [
     "titles": 0,
     "starts": 47,
     "wins": 1,
-    "points": 89.0
+    "points": 89
   },
   {
     "name": "Narain Karthikeyan",
@@ -2543,7 +2543,7 @@ module.exports = [
     "titles": 0,
     "starts": 46,
     "wins": 0,
-    "points": 5.0
+    "points": 5
   },
   {
     "name": "Éric Bernard",
@@ -2557,7 +2557,7 @@ module.exports = [
     "titles": 0,
     "starts": 45,
     "wins": 0,
-    "points": 10.0
+    "points": 10
   },
   {
     "name": "Christian Danner",
@@ -2572,7 +2572,7 @@ module.exports = [
     "titles": 0,
     "starts": 36,
     "wins": 0,
-    "points": 4.0
+    "points": 4
   },
   {
     "name": "Mike Hawthorn",
@@ -2601,7 +2601,7 @@ module.exports = [
     "titles": 0,
     "starts": 46,
     "wins": 0,
-    "points": 4.0
+    "points": 4
   },
   {
     "name": "Jaime Alguersuari",
@@ -2614,7 +2614,7 @@ module.exports = [
     "titles": 0,
     "starts": 46,
     "wins": 0,
-    "points": 31.0
+    "points": 31
   },
   {
     "name": "Liam Lawson",
@@ -2628,7 +2628,7 @@ module.exports = [
     "titles": 0,
     "starts": 46,
     "wins": 0,
-    "points": 87.0
+    "points": 87
   },
   {
     "name": "Bruno Senna",
@@ -2643,7 +2643,7 @@ module.exports = [
     "titles": 0,
     "starts": 46,
     "wins": 0,
-    "points": 33.0
+    "points": 33
   },
   {
     "name": "Mick Schumacher",
@@ -2656,7 +2656,7 @@ module.exports = [
     "titles": 0,
     "starts": 43,
     "wins": 0,
-    "points": 12.0
+    "points": 12
   },
   {
     "name": "Alessandro Zanardi",
@@ -2671,7 +2671,7 @@ module.exports = [
     "titles": 0,
     "starts": 41,
     "wins": 0,
-    "points": 1.0
+    "points": 1
   },
   {
     "name": "Christian Fittipaldi",
@@ -2686,7 +2686,7 @@ module.exports = [
     "titles": 0,
     "starts": 40,
     "wins": 0,
-    "points": 12.0
+    "points": 12
   },
   {
     "name": "Masten Gregory",
@@ -2701,7 +2701,7 @@ module.exports = [
     "titles": 0,
     "starts": 38,
     "wins": 0,
-    "points": 21.0
+    "points": 21
   },
   {
     "name": "Lorenzo Bandini",
@@ -2714,7 +2714,7 @@ module.exports = [
     "titles": 0,
     "starts": 42,
     "wins": 1,
-    "points": 58.0
+    "points": 58
   },
   {
     "name": "Tom Pryce",
@@ -2728,7 +2728,7 @@ module.exports = [
     "titles": 0,
     "starts": 42,
     "wins": 0,
-    "points": 19.0
+    "points": 19
   },
   {
     "name": "Stoffel Vandoorne",
@@ -2741,7 +2741,7 @@ module.exports = [
     "titles": 0,
     "starts": 41,
     "wins": 0,
-    "points": 26.0
+    "points": 26
   },
   {
     "name": "Karl Wendlinger",
@@ -2756,7 +2756,7 @@ module.exports = [
     "titles": 0,
     "starts": 41,
     "wins": 0,
-    "points": 14.0
+    "points": 14
   },
   {
     "name": "Mauro Baldi",
@@ -2771,7 +2771,7 @@ module.exports = [
     "titles": 0,
     "starts": 36,
     "wins": 0,
-    "points": 5.0
+    "points": 5
   },
   {
     "name": "Howden Ganley",
@@ -2786,7 +2786,7 @@ module.exports = [
     "titles": 0,
     "starts": 35,
     "wins": 0,
-    "points": 10.0
+    "points": 10
   },
   {
     "name": "Felipe Nasr",
@@ -2799,7 +2799,7 @@ module.exports = [
     "titles": 0,
     "starts": 39,
     "wins": 0,
-    "points": 29.0
+    "points": 29
   },
   {
     "name": "Emanuele Pirro",
@@ -2813,7 +2813,7 @@ module.exports = [
     "titles": 0,
     "starts": 37,
     "wins": 0,
-    "points": 3.0
+    "points": 3
   },
   {
     "name": "Pascal Wehrlein",
@@ -2827,7 +2827,7 @@ module.exports = [
     "titles": 0,
     "starts": 39,
     "wins": 0,
-    "points": 6.0
+    "points": 6
   },
   {
     "name": "Tony Brooks",
@@ -2844,7 +2844,7 @@ module.exports = [
     "titles": 0,
     "starts": 38,
     "wins": 6,
-    "points": 75.0
+    "points": 75
   },
   {
     "name": "Charles Pic",
@@ -2858,7 +2858,7 @@ module.exports = [
     "titles": 0,
     "starts": 39,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Oliver Bearman",
@@ -2872,7 +2872,7 @@ module.exports = [
     "titles": 0,
     "starts": 38,
     "wins": 0,
-    "points": 66.0
+    "points": 66
   },
   {
     "name": "Franco Colapinto",
@@ -2886,7 +2886,7 @@ module.exports = [
     "titles": 0,
     "starts": 37,
     "wins": 0,
-    "points": 24.0
+    "points": 24
   },
   {
     "name": "Wilson Fittipaldi",
@@ -2900,7 +2900,7 @@ module.exports = [
     "titles": 0,
     "starts": 35,
     "wins": 0,
-    "points": 3.0
+    "points": 3
   },
   {
     "name": "Louis Rosier",
@@ -2915,7 +2915,7 @@ module.exports = [
     "titles": 0,
     "starts": 38,
     "wins": 0,
-    "points": 18.0
+    "points": 18
   },
   {
     "name": "Tiago Monteiro",
@@ -2929,7 +2929,7 @@ module.exports = [
     "titles": 0,
     "starts": 37,
     "wins": 0,
-    "points": 7.0
+    "points": 7
   },
   {
     "name": "Jolyon Palmer",
@@ -2942,7 +2942,7 @@ module.exports = [
     "titles": 0,
     "starts": 35,
     "wins": 0,
-    "points": 9.0
+    "points": 9
   },
   {
     "name": "Logan Sargeant",
@@ -2955,7 +2955,7 @@ module.exports = [
     "titles": 0,
     "starts": 36,
     "wins": 0,
-    "points": 1.0
+    "points": 1
   },
   {
     "name": "Mike Spence",
@@ -2969,7 +2969,7 @@ module.exports = [
     "titles": 0,
     "starts": 36,
     "wins": 0,
-    "points": 27.0
+    "points": 27
   },
   {
     "name": "Ricardo Zonta",
@@ -2983,7 +2983,7 @@ module.exports = [
     "titles": 0,
     "starts": 36,
     "wins": 0,
-    "points": 3.0
+    "points": 3
   },
   {
     "name": "Marc Gené",
@@ -2997,7 +2997,7 @@ module.exports = [
     "titles": 0,
     "starts": 36,
     "wins": 0,
-    "points": 5.0
+    "points": 5
   },
   {
     "name": "Kazuki Nakajima",
@@ -3010,7 +3010,7 @@ module.exports = [
     "titles": 0,
     "starts": 36,
     "wins": 0,
-    "points": 9.0
+    "points": 9
   },
   {
     "name": "Tim Schenken",
@@ -3026,7 +3026,7 @@ module.exports = [
     "titles": 0,
     "starts": 34,
     "wins": 0,
-    "points": 7.0
+    "points": 7
   },
   {
     "name": "Kimi Antonelli",
@@ -3039,7 +3039,7 @@ module.exports = [
     "titles": 0,
     "starts": 35,
     "wins": 6,
-    "points": 369.0
+    "points": 369
   },
   {
     "name": "Gabriel Bortoleto",
@@ -3052,7 +3052,7 @@ module.exports = [
     "titles": 0,
     "starts": 34,
     "wins": 0,
-    "points": 29.0
+    "points": 29
   },
   {
     "name": "Max Chilton",
@@ -3065,7 +3065,7 @@ module.exports = [
     "titles": 0,
     "starts": 35,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Peter Collins",
@@ -3081,7 +3081,7 @@ module.exports = [
     "titles": 0,
     "starts": 32,
     "wins": 3,
-    "points": 47.0
+    "points": 47
   },
   {
     "name": "Isack Hadjar",
@@ -3094,7 +3094,7 @@ module.exports = [
     "titles": 0,
     "starts": 34,
     "wins": 0,
-    "points": 119.0
+    "points": 119
   },
   {
     "name": "Jules Bianchi",
@@ -3107,7 +3107,7 @@ module.exports = [
     "titles": 0,
     "starts": 34,
     "wins": 0,
-    "points": 2.0
+    "points": 2
   },
   {
     "name": "Nino Farina",
@@ -3136,7 +3136,7 @@ module.exports = [
     "titles": 0,
     "starts": 31,
     "wins": 0,
-    "points": 46.0
+    "points": 46
   },
   {
     "name": "Alberto Ascari",
@@ -3165,7 +3165,7 @@ module.exports = [
     "titles": 0,
     "starts": 26,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Pedro Lamy",
@@ -3179,7 +3179,7 @@ module.exports = [
     "titles": 0,
     "starts": 32,
     "wins": 0,
-    "points": 1.0
+    "points": 1
   },
   {
     "name": "Gunnar Nilsson",
@@ -3192,7 +3192,7 @@ module.exports = [
     "titles": 0,
     "starts": 31,
     "wins": 1,
-    "points": 31.0
+    "points": 31
   },
   {
     "name": "Peter Revson",
@@ -3207,7 +3207,7 @@ module.exports = [
     "titles": 0,
     "starts": 30,
     "wins": 2,
-    "points": 61.0
+    "points": 61
   },
   {
     "name": "Peter Gethin",
@@ -3221,7 +3221,7 @@ module.exports = [
     "titles": 0,
     "starts": 30,
     "wins": 1,
-    "points": 11.0
+    "points": 11
   },
   {
     "name": "Carel Godin de Beaufort",
@@ -3234,7 +3234,7 @@ module.exports = [
     "titles": 0,
     "starts": 28,
     "wins": 0,
-    "points": 4.0
+    "points": 4
   },
   {
     "name": "Raul Boesel",
@@ -3248,7 +3248,7 @@ module.exports = [
     "titles": 0,
     "starts": 23,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "David Brabham",
@@ -3262,7 +3262,7 @@ module.exports = [
     "titles": 0,
     "starts": 24,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Huub Rothengatter",
@@ -3277,7 +3277,7 @@ module.exports = [
     "titles": 0,
     "starts": 25,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Bob Anderson",
@@ -3290,7 +3290,7 @@ module.exports = [
     "titles": 0,
     "starts": 25,
     "wins": 0,
-    "points": 8.0
+    "points": 8
   },
   {
     "name": "Piers Courage",
@@ -3304,7 +3304,7 @@ module.exports = [
     "titles": 0,
     "starts": 28,
     "wins": 0,
-    "points": 20.0
+    "points": 20
   },
   {
     "name": "Robert Manzon",
@@ -3317,7 +3317,7 @@ module.exports = [
     "titles": 0,
     "starts": 28,
     "wins": 0,
-    "points": 16.0
+    "points": 16
   },
   {
     "name": "Wolfgang von Trips",
@@ -3331,7 +3331,7 @@ module.exports = [
     "titles": 0,
     "starts": 27,
     "wins": 2,
-    "points": 56.0
+    "points": 56
   },
   {
     "name": "Cristiano da Matta",
@@ -3344,7 +3344,7 @@ module.exports = [
     "titles": 0,
     "starts": 28,
     "wins": 0,
-    "points": 13.0
+    "points": 13
   },
   {
     "name": "Nelson Piquet Jr.",
@@ -3357,7 +3357,7 @@ module.exports = [
     "titles": 0,
     "starts": 28,
     "wins": 0,
-    "points": 19.0
+    "points": 19
   },
   {
     "name": "Scott Speed",
@@ -3370,7 +3370,7 @@ module.exports = [
     "titles": 0,
     "starts": 28,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Sébastien Bourdais",
@@ -3383,7 +3383,7 @@ module.exports = [
     "titles": 0,
     "starts": 27,
     "wins": 0,
-    "points": 6.0
+    "points": 6
   },
   {
     "name": "Tony Maggs",
@@ -3396,7 +3396,7 @@ module.exports = [
     "titles": 0,
     "starts": 25,
     "wins": 0,
-    "points": 26.0
+    "points": 26
   },
   {
     "name": "José Froilán González",
@@ -3423,7 +3423,7 @@ module.exports = [
     "titles": 0,
     "starts": 25,
     "wins": 0,
-    "points": 4.0
+    "points": 4
   },
   {
     "name": "Jan Magnussen",
@@ -3436,7 +3436,7 @@ module.exports = [
     "titles": 0,
     "starts": 24,
     "wins": 0,
-    "points": 1.0
+    "points": 1
   },
   {
     "name": "Luigi Musso",
@@ -3450,7 +3450,7 @@ module.exports = [
     "titles": 0,
     "starts": 24,
     "wins": 1,
-    "points": 44.0
+    "points": 44
   },
   {
     "name": "Reine Wisell",
@@ -3464,7 +3464,7 @@ module.exports = [
     "titles": 0,
     "starts": 22,
     "wins": 0,
-    "points": 13.0
+    "points": 13
   },
   {
     "name": "Giancarlo Baghetti",
@@ -3479,7 +3479,7 @@ module.exports = [
     "titles": 0,
     "starts": 21,
     "wins": 1,
-    "points": 14.0
+    "points": 14
   },
   {
     "name": "Sergey Sirotkin",
@@ -3492,7 +3492,7 @@ module.exports = [
     "titles": 0,
     "starts": 21,
     "wins": 0,
-    "points": 1.0
+    "points": 1
   },
   {
     "name": "Zsolt Baumgartner",
@@ -3506,7 +3506,7 @@ module.exports = [
     "titles": 0,
     "starts": 20,
     "wins": 0,
-    "points": 1.0
+    "points": 1
   },
   {
     "name": "Antônio Pizzonia",
@@ -3520,7 +3520,7 @@ module.exports = [
     "titles": 0,
     "starts": 20,
     "wins": 0,
-    "points": 8.0
+    "points": 8
   },
   {
     "name": "Will Stevens",
@@ -3534,7 +3534,7 @@ module.exports = [
     "titles": 0,
     "starts": 18,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Lucas di Grassi",
@@ -3547,7 +3547,7 @@ module.exports = [
     "titles": 0,
     "starts": 18,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Hans Herrmann",
@@ -3563,7 +3563,7 @@ module.exports = [
     "titles": 0,
     "starts": 18,
     "wins": 0,
-    "points": 10.0
+    "points": 10
   },
   {
     "name": "Piero Taruffi",
@@ -3577,7 +3577,7 @@ module.exports = [
     "titles": 0,
     "starts": 18,
     "wins": 1,
-    "points": 41.0
+    "points": 41
   },
   {
     "name": "Cliff Allison",
@@ -3591,7 +3591,7 @@ module.exports = [
     "titles": 0,
     "starts": 16,
     "wins": 0,
-    "points": 11.0
+    "points": 11
   },
   {
     "name": "Gianmaria Bruni",
@@ -3604,7 +3604,7 @@ module.exports = [
     "titles": 0,
     "starts": 18,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Allan McNish",
@@ -3617,7 +3617,7 @@ module.exports = [
     "titles": 0,
     "starts": 16,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Johnny Dumfries",
@@ -3630,7 +3630,7 @@ module.exports = [
     "titles": 0,
     "starts": 15,
     "wins": 0,
-    "points": 3.0
+    "points": 3
   },
   {
     "name": "Justin Wilson",
@@ -3644,7 +3644,7 @@ module.exports = [
     "titles": 0,
     "starts": 16,
     "wins": 0,
-    "points": 1.0
+    "points": 1
   },
   {
     "name": "Ralph Firman",
@@ -3657,7 +3657,7 @@ module.exports = [
     "titles": 0,
     "starts": 14,
     "wins": 0,
-    "points": 1.0
+    "points": 1
   },
   {
     "name": "Olivier Gendebien",
@@ -3670,7 +3670,7 @@ module.exports = [
     "titles": 0,
     "starts": 14,
     "wins": 0,
-    "points": 18.0
+    "points": 18
   },
   {
     "name": "Giorgio Pantano",
@@ -3683,7 +3683,7 @@ module.exports = [
     "titles": 0,
     "starts": 14,
     "wins": 0,
-    "points": 0.0
+    "points": 0
   },
   {
     "name": "Danny Sullivan",
@@ -3696,7 +3696,7 @@ module.exports = [
     "titles": 0,
     "starts": 15,
     "wins": 0,
-    "points": 2.0
+    "points": 2
   },
   {
     "name": "Michael Andretti",
@@ -3709,7 +3709,7 @@ module.exports = [
     "titles": 0,
     "starts": 13,
     "wins": 0,
-    "points": 7.0
+    "points": 7
   },
   {
     "name": "Vic Elford",
@@ -3723,7 +3723,7 @@ module.exports = [
     "titles": 0,
     "starts": 13,
     "wins": 0,
-    "points": 8.0
+    "points": 8
   },
   {
     "name": "Jack Doohan",
@@ -3737,5 +3737,330 @@ module.exports = [
     "starts": 7,
     "wins": 0,
     "points": 0
+  },
+  {
+    "name": "Paolo Barilla",
+    "teams": [
+      "Minardi",
+      "Dallara"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1989,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Olivier Beretta",
+    "teams": [
+      "Larrousse"
+    ],
+    "nat": "Monegasque",
+    "flag": "🇲🇨",
+    "debut": 1994,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Allen Berg",
+    "teams": [
+      "Osella"
+    ],
+    "nat": "Canadian",
+    "flag": "🇨🇦",
+    "debut": 1986,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Jean-Marc Gounon",
+    "teams": [
+      "Minardi",
+      "Simtek"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1993,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Bernd Schneider",
+    "teams": [
+      "Zakspeed"
+    ],
+    "nat": "German",
+    "flag": "🇩🇪",
+    "debut": 1988,
+    "titles": 0,
+    "starts": 9,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Fabrizio Barbazza",
+    "teams": [
+      "AGS",
+      "Minardi"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1991,
+    "titles": 0,
+    "starts": 8,
+    "wins": 0,
+    "points": 2.0
+  },
+  {
+    "name": "Oscar Larrauri",
+    "teams": [
+      "EuroBrun"
+    ],
+    "nat": "Argentine",
+    "flag": "🇦🇷",
+    "debut": 1988,
+    "titles": 0,
+    "starts": 8,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Julian Bailey",
+    "teams": [
+      "Tyrrell",
+      "Lotus"
+    ],
+    "nat": "British",
+    "flag": "🇬🇧",
+    "debut": 1988,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 1.0
+  },
+  {
+    "name": "Paul Belmondo",
+    "teams": [
+      "March",
+      "Pacific"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 1992,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Gregor Foitek",
+    "teams": [
+      "EuroBrun",
+      "Rial",
+      "Onyx",
+      "Brabham"
+    ],
+    "nat": "Swiss",
+    "flag": "🇨🇭",
+    "debut": 1989,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Giovanni Lavaggi",
+    "teams": [
+      "Minardi",
+      "Pacific"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1995,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Franck Montagny",
+    "teams": [
+      "Super Aguri"
+    ],
+    "nat": "French",
+    "flag": "🇫🇷",
+    "debut": 2006,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Massimiliano Papis",
+    "teams": [
+      "Footwork"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1995,
+    "titles": 0,
+    "starts": 7,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Emanuele Naspetti",
+    "teams": [
+      "March",
+      "Jordan"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1992,
+    "titles": 0,
+    "starts": 6,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Domenico Schiattarella",
+    "teams": [
+      "Simtek"
+    ],
+    "nat": "Italian",
+    "flag": "🇮🇹",
+    "debut": 1994,
+    "titles": 0,
+    "starts": 6,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Nicolas Kiesa",
+    "teams": [
+      "Minardi"
+    ],
+    "nat": "Danish",
+    "flag": "🇩🇰",
+    "debut": 2003,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Eric van de Poele",
+    "teams": [
+      "Modena",
+      "Fondmetal"
+    ],
+    "nat": "Belgian",
+    "flag": "🇧🇪",
+    "debut": 1991,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Alexander Rossi",
+    "teams": [
+      "Marussia"
+    ],
+    "nat": "American",
+    "flag": "🇺🇸",
+    "debut": 2015,
+    "titles": 0,
+    "starts": 5,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Norberto Fontana",
+    "teams": [
+      "Sauber"
+    ],
+    "nat": "Argentine",
+    "flag": "🇦🇷",
+    "debut": 1997,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Yuji Ide",
+    "teams": [
+      "Super Aguri"
+    ],
+    "nat": "Japanese",
+    "flag": "🇯🇵",
+    "debut": 2006,
+    "titles": 0,
+    "starts": 4,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Andrea Chiesa",
+    "teams": [
+      "Fondmetal"
+    ],
+    "nat": "Swiss",
+    "flag": "🇨🇭",
+    "debut": 1992,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Jean-Denis Delétraz",
+    "teams": [
+      "Larrousse",
+      "Pacific"
+    ],
+    "nat": "Swiss",
+    "flag": "🇨🇭",
+    "debut": 1994,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Tomáš Enge",
+    "teams": [
+      "Prost"
+    ],
+    "nat": "Czech",
+    "flag": "🇨🇿",
+    "debut": 2001,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
+  },
+  {
+    "name": "Hideki Noda",
+    "teams": [
+      "Larrousse",
+      "Simtek"
+    ],
+    "nat": "Japanese",
+    "flag": "🇯🇵",
+    "debut": 1994,
+    "titles": 0,
+    "starts": 3,
+    "wins": 0,
+    "points": 0.0
   }
 ];
