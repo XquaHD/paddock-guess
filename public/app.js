@@ -1,8 +1,10 @@
 const MAX_GUESSES = 8;
 const EASY_POOL_SIZE = 65;
+const TOP_EXCLUDE_SIZE = 40;
 
 let DRIVERS = [];
 let EASY_POOL = [];
+let HARD_POOL = [];
 
 let dailyState = null;
 let practiceState = { answer: null, guesses: [], difficulty: null, finished: false };
@@ -298,7 +300,7 @@ document.getElementById("shareBtn").onclick = () => {
 // ---------- PRACTICE (client-side) ----------
 
 function startPractice(diff) {
-  const driver = diff === "easy" ? weightedPick(EASY_POOL) : DRIVERS[Math.floor(Math.random() * DRIVERS.length)];
+  const driver = diff === "easy" ? weightedPick(EASY_POOL) : HARD_POOL[Math.floor(Math.random() * HARD_POOL.length)];
   practiceState = { answer: driver, guesses: [], difficulty: diff, finished: false };
   renderPractice();
 }
@@ -439,6 +441,9 @@ async function boot() {
   const res = await fetch("/api/drivers");
   DRIVERS = await res.json();
   EASY_POOL = [...DRIVERS].sort((a, b) => fameWeight(b) - fameWeight(a)).slice(0, EASY_POOL_SIZE);
+  const rankedByFame = [...DRIVERS].sort((a, b) => fameWeight(b) - fameWeight(a));
+  const topNames = new Set(rankedByFame.slice(0, TOP_EXCLUDE_SIZE).map((d) => d.name));
+  HARD_POOL = DRIVERS.filter((d) => !topNames.has(d.name));
   await loadDaily();
 }
 
