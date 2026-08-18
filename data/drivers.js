@@ -4684,7 +4684,8 @@ module.exports = [
     "titles": 0,
     "starts": 3,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Lella Lombardi",
@@ -5377,7 +5378,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Jean-Christophe Boullion",
@@ -5485,7 +5487,8 @@ module.exports = [
     "titles": 0,
     "starts": 7,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Carlos Menditeguy",
@@ -5759,7 +5762,8 @@ module.exports = [
     "titles": 0,
     "starts": 7,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Luigi Fagioli",
@@ -5785,7 +5789,8 @@ module.exports = [
     "titles": 0,
     "starts": 5,
     "wins": 0,
-    "points": 1.5
+    "points": 1.5,
+    "dailyEligible": false
   },
   {
     "name": "Boy Hayje",
@@ -5799,7 +5804,8 @@ module.exports = [
     "titles": 0,
     "starts": 3,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "David Hobbs",
@@ -5828,7 +5834,8 @@ module.exports = [
     "titles": 0,
     "starts": 5,
     "wins": 0,
-    "points": 3.0
+    "points": 3.0,
+    "dailyEligible": false
   },
   {
     "name": "Mike Parkes",
@@ -5854,7 +5861,8 @@ module.exports = [
     "titles": 0,
     "starts": 7,
     "wins": 0,
-    "points": 2.0
+    "points": 2.0,
+    "dailyEligible": false
   },
   {
     "name": "Tony Settember",
@@ -5868,7 +5876,8 @@ module.exports = [
     "titles": 0,
     "starts": 6,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Alan Stacey",
@@ -5907,7 +5916,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Ingo Hoffmann",
@@ -5920,7 +5930,8 @@ module.exports = [
     "titles": 0,
     "starts": 3,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Loris Kessel",
@@ -5933,7 +5944,8 @@ module.exports = [
     "titles": 0,
     "starts": 3,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Pierre Levegh",
@@ -5972,7 +5984,8 @@ module.exports = [
     "titles": 0,
     "starts": 6,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Roelof Wunderink",
@@ -5985,7 +5998,8 @@ module.exports = [
     "titles": 0,
     "starts": 3,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Mário de Araújo Cabral",
@@ -5998,7 +6012,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Tom Belsø",
@@ -6011,7 +6026,8 @@ module.exports = [
     "titles": 0,
     "starts": 2,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Michael Bleekemolen",
@@ -6038,7 +6054,8 @@ module.exports = [
     "titles": 0,
     "starts": 5,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Peter Hirt",
@@ -6051,7 +6068,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Tony Marsh",
@@ -6064,7 +6082,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "David Murray",
@@ -6077,7 +6096,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Jacques Pollet",
@@ -6090,7 +6110,8 @@ module.exports = [
     "titles": 0,
     "starts": 5,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Alfonso de Portago",
@@ -6116,7 +6137,8 @@ module.exports = [
     "titles": 0,
     "starts": 5,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Consalvo Sanesi",
@@ -6169,7 +6191,8 @@ module.exports = [
     "titles": 0,
     "starts": 5,
     "wins": 0,
-    "points": 1.0
+    "points": 1.0,
+    "dailyEligible": false
   },
   {
     "name": "Sam Tingle",
@@ -6182,7 +6205,8 @@ module.exports = [
     "titles": 0,
     "starts": 5,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Kurt Ahrens Jr.",
@@ -6195,7 +6219,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Chris Bristow",
@@ -6208,7 +6233,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Ignazio Giunti",
@@ -6235,7 +6261,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Gino Munaron",
@@ -6248,7 +6275,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Danny Ongais",
@@ -6275,7 +6303,8 @@ module.exports = [
     "titles": 0,
     "starts": 4,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Bill Brack",
@@ -6289,7 +6318,8 @@ module.exports = [
     "titles": 0,
     "starts": 3,
     "wins": 0,
-    "points": 0.0
+    "points": 0.0,
+    "dailyEligible": false
   },
   {
     "name": "Stéphane Sarrazin",

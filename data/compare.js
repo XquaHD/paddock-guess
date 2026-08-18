@@ -5,7 +5,7 @@ const TEAM_GROUPS = [
   ["Tyrrell", "BAR", "Honda", "Brawn", "Mercedes"],
   ["Stewart", "Jaguar", "Red Bull"],
   ["Sauber", "BMW Sauber", "Alfa Romeo"],
-  ["Arrows", "Footwork", "Shadow"],
+  ["Arrows", "Footwork"],
   ["March", "Leyton House"],
   ["Osella", "Fondmetal"],
   ["Virgin", "Marussia", "Manor"]
