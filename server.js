@@ -176,10 +176,15 @@ function seededRandom(seed) {
   };
 }
 
+// Drivers can be flagged dailyEligible: false in data/drivers.js to keep
+// them out of the daily puzzle rotation while still leaving them fully
+// available in Practice: Hard mode.
+const DAILY_POOL = DRIVERS.filter((d) => d.dailyEligible !== false);
+
 function pickDailyDriver(dateStr) {
   const rng = seededRandom(dateStrToNum(dateStr));
-  const idx = Math.floor(rng() * DRIVERS.length);
-  return DRIVERS[idx].name;
+  const idx = Math.floor(rng() * DAILY_POOL.length);
+  return DAILY_POOL[idx].name;
 }
 
 function findDriver(name) {
