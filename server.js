@@ -2,6 +2,7 @@ const express = require("express");
 const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
+const { createClient } = require("@libsql/client");
 
 const DRIVERS = require("./data/drivers.js");
 const { compare } = require("./data/compare.js");
@@ -9,8 +10,30 @@ const { compare } = require("./data/compare.js");
 const PORT = process.env.PORT || 3000;
 const MAX_GUESSES = 8;
 const LAUNCH_DATE_STR = "2026-08-11"; // change this to today's date whenever you want puzzle #1 to start
-const DB_PATH = path.join(__dirname, "data", "db.json");
+
+// ---------- storage backend ----------
+// Two modes, chosen automatically:
+//   1. Turso (recommended for Render's free tier — no persistent disk
+//      needed). Set TURSO_DATABASE_URL (and TURSO_AUTH_TOKEN if your
+//      database requires one) as environment variables and this is used
+//      automatically.
+//   2. Local file (data/db.json). Used whenever TURSO_DATABASE_URL isn't
+//      set — fine for local development, but wiped on every restart on
+//      Render's free tier since free services can't attach persistent
+//      disks. See README for a paid-disk alternative if you'd rather not
+//      use Turso.
+const USE_TURSO = !!process.env.TURSO_DATABASE_URL;
+const DB_DIR = process.env.DB_DIR || path.join(__dirname, "data");
+const DB_PATH = path.join(DB_DIR, "db.json");
 const COOKIE_NAME = "pg_pid";
+
+let turso = null;
+if (USE_TURSO) {
+  turso = createClient({
+    url: process.env.TURSO_DATABASE_URL,
+    authToken: process.env.TURSO_AUTH_TOKEN
+  });
+}
 
 const app = express();
 app.set("trust proxy", 1);
@@ -52,9 +75,37 @@ app.use((req, res, next) => {
 
 app.use(express.static(path.join(__dirname, "public")));
 
-// ---------- tiny JSON file "database" ----------
+// ---------- "database" (Turso if configured, else a local JSON file) ----------
 
-function loadDB() {
+let tursoReady = null;
+async function ensureTursoTable() {
+  if (!tursoReady) {
+    tursoReady = turso.execute(
+      "CREATE TABLE IF NOT EXISTS kv (key TEXT PRIMARY KEY, value TEXT)"
+    );
+  }
+  await tursoReady;
+}
+
+async function loadDB() {
+  if (USE_TURSO) {
+    await ensureTursoTable();
+    const result = await turso.execute({
+      sql: "SELECT value FROM kv WHERE key = ?",
+      args: ["db"]
+    });
+    if (result.rows.length === 0) return { puzzles: {}, players: {} };
+    try {
+      const db = JSON.parse(result.rows[0].value);
+      if (!db.puzzles) db.puzzles = {};
+      if (!db.players) db.players = {};
+      return db;
+    } catch (e) {
+      console.error("Could not parse stored data, starting fresh:", e.message);
+      return { puzzles: {}, players: {} };
+    }
+  }
+
   if (!fs.existsSync(DB_PATH)) {
     return { puzzles: {}, players: {} };
   }
@@ -69,16 +120,35 @@ function loadDB() {
   }
 }
 
-function saveDB(db) {
+async function saveDB(db) {
+  if (USE_TURSO) {
+    await ensureTursoTable();
+    await turso.execute({
+      sql: "INSERT INTO kv (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+      args: ["db", JSON.stringify(db)]
+    });
+    return;
+  }
+
+  if (!fs.existsSync(DB_DIR)) {
+    fs.mkdirSync(DB_DIR, { recursive: true });
+  }
   fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2), "utf8");
 }
 
 // ---------- date helpers ----------
+// The "day" always means a UTC calendar day. This is deliberate and fixed:
+// it doesn't depend on the server host's local timezone setting (which
+// varies by hosting provider and isn't something we control), so the
+// puzzle rolls over at the same real moment for every visitor everywhere:
+// 00:00 UTC. Everything below uses UTC consistently to avoid the previous
+// bug where date-string generation used local time but the day-count math
+// used UTC, which could disagree about which day it was.
 
 function toDateStr(d) {
-  const y = d.getFullYear();
-  const m = String(d.getMonth() + 1).padStart(2, "0");
-  const day = String(d.getDate()).padStart(2, "0");
+  const y = d.getUTCFullYear();
+  const m = String(d.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(d.getUTCDate()).padStart(2, "0");
   return `${y}-${m}-${day}`;
 }
 
@@ -118,13 +188,13 @@ function findDriver(name) {
 
 // ---------- puzzle (shared answer) + per-player guesses ----------
 
-function getOrCreatePuzzle(db, dateStr) {
+async function getOrCreatePuzzle(db, dateStr) {
   if (!db.puzzles[dateStr]) {
     db.puzzles[dateStr] = {
       puzzleNumber: puzzleNumberFor(dateStr),
       driverName: pickDailyDriver(dateStr)
     };
-    saveDB(db);
+    await saveDB(db);
   }
   return db.puzzles[dateStr];
 }
@@ -166,18 +236,18 @@ app.get("/api/whoami", (req, res) => {
   res.json({ playerId: req.playerId });
 });
 
-app.get("/api/daily", (req, res) => {
-  const db = loadDB();
+app.get("/api/daily", async (req, res) => {
+  const db = await loadDB();
   const dateStr = toDateStr(new Date());
-  const puzzle = getOrCreatePuzzle(db, dateStr);
+  const puzzle = await getOrCreatePuzzle(db, dateStr);
   const playerEntry = getPlayerGuesses(db, req.playerId, dateStr);
   res.json(publicState(puzzle, playerEntry, dateStr));
 });
 
-app.post("/api/daily/guess", (req, res) => {
-  const db = loadDB();
+app.post("/api/daily/guess", async (req, res) => {
+  const db = await loadDB();
   const dateStr = toDateStr(new Date());
-  const puzzle = getOrCreatePuzzle(db, dateStr);
+  const puzzle = await getOrCreatePuzzle(db, dateStr);
   const playerEntry = getPlayerGuesses(db, req.playerId, dateStr);
 
   const state = publicState(puzzle, playerEntry, dateStr);
@@ -197,24 +267,23 @@ app.post("/api/daily/guess", (req, res) => {
   }
 
   playerEntry.guesses.push(driver.name);
-  saveDB(db);
+  await saveDB(db);
 
   res.json(publicState(puzzle, playerEntry, dateStr));
 });
 
-app.get("/api/history", (req, res) => {
-  const db = loadDB();
+app.get("/api/history", async (req, res) => {
+  const db = await loadDB();
   const todayStr = toDateStr(new Date());
   const [ly, lm, ld] = LAUNCH_DATE_STR.split("-").map(Number);
-  const start = new Date(ly, lm - 1, ld);
-  const end = new Date();
-  end.setHours(0, 0, 0, 0);
-  start.setHours(0, 0, 0, 0);
+  const [ty, tm, td] = todayStr.split("-").map(Number);
+  const startMs = Date.UTC(ly, lm - 1, ld);
+  const endMs = Date.UTC(ty, tm - 1, td);
 
   const playerEntries = db.players[req.playerId] || {};
   const days = [];
-  for (let t = new Date(end); t >= start; t.setDate(t.getDate() - 1)) {
-    const dateStr = toDateStr(t);
+  for (let t = endMs; t >= startMs; t -= 86400000) {
+    const dateStr = toDateStr(new Date(t));
     const puzzle = db.puzzles[dateStr];
     const puzzleNumber = puzzleNumberFor(dateStr);
     const playerEntry = playerEntries[dateStr];
